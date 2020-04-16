@@ -1,0 +1,278 @@
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  color: whitesmoke;
+  background-color:rgb(23,40,61);
+}
+
+body{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  padding: 0;
+  height: 100%;
+  font-family: 'Oxanium', 'Spartan', 'Oswald';
+}
+
+header{
+  height: auto;
+  width: 100%;
+  padding-top: 1%;
+  background-color:  rgb(23,40,61);
+}
+
+#logo{
+  width: 200px;
+  margin-bottom: 0;
+  padding-left: 2%;
+  z-index: 1;
+}
+#Barnav{
+  background-color: #FF5555;
+}
+ul{
+  list-style-type: none;
+  text-decoration: none;
+  display:flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.MyBurger{
+  visibility: hidden;
+}  
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Oxanium', 'Spartan', 'Oswald';
+  font-size: 22px;
+}
+
+a:hover{
+  background-color: rgb(23,40,61);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FF5555;
+}
+
+.container{
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.mySlides{
+  display: none;
+}
+
+.imgslide{
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #FF5555;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+/* .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+/* .active {
+  background-color: #FF5555;
+} */
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.Global{
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+}
+
+#calories{
+  width: 100%;
+  max-width: 790px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Barrenoire{
+  width: 100%;
+  background-color: rgb(23,40,61);
+  color: #FF5555;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#TexteRyu{
+  width: 50%;
+  max-width: 790px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 700px) {
+  #Barnav{
+    display: none;
+    visibility: hidden;
+  }
+  ul{
+    list-style-type: none;
+    text-decoration: none;
+    display:initial;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+  font-size: 16px;
+  color: #FF5555;
+}
+  .MyBurger {
+    position: fixed;
+    width: 375px;
+    margin: auto;
+    visibility: visible;
+    z-index: 1;
+  }
+  
+  .mobile-menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 85%;
+    background: rgba(10, 10, 10, 0.5);
+    opacity: 0;
+    z-index: 20;
+    font-size : 18px;
+    box-sizing: border-box;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .mobile-menu.open {
+    display: block;
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .burger-wrap {
+    position: absolute;
+    z-index: 40;
+    transition: 300ms 700ms transform ease-in;
+  }
+  .burger-wrap.reappearBurger {
+    opacity: 0;
+    animation: 0.5s 2s fadeAppear ease-out forwards;
+  }
+  
+  @keyframes fadeAppear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .burger {
+    width: 30px;
+    height: 27px;
+    cursor: pointer;
+    z-index: 30;
+    transition: transform 1s ease-in;
+  }
+  .burger span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    left: 0;
+    background: #FF5555;
+    border-radius: 9px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+  }
+  .burger span:nth-child(1) {
+    top: 0px;
+    width: 50%;
+  }
+  .burger span:nth-child(2) {
+    top: 12px;
+    width: 75%;
+  }
+  .burger span:nth-child(3) {
+    top: 24px;
+    width: 100%;
+  }
+  .burger.active span:nth-child(1) {
+    width: 100%;
+    top: 12px;
+    transform: rotate(135deg);
+  }
+  .burger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .burger.active span:nth-child(3) {
+    top: 12px;
+    transform: rotate(-135deg);
+  }
+  li {
+    margin-bottom: 15px;
+  }
+}
