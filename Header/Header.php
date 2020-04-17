@@ -1,5 +1,5 @@
 <header>
-    <img id="logo" src="tryheader3.png" alt="">
+    <img id="logo" src="../Image/tryheader3.png" alt="">
     <div class="MyBurger">
       <div class="burger-wrap">
         <div class="burger">
