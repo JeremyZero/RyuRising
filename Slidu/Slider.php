@@ -32,6 +32,12 @@
           </div>
         
         </div>
+</div>
+
+        <div id="Barrenoire">
+  <img id="TexteRyu" src="../images/ryurising.png" alt="">
+</div>
+
         <!-- <br>
         
         <div style="text-align:center">
@@ -43,10 +49,3 @@
           <span class="dot"></span> 
         </div>  -->
         
-</div>
-<div class="Global">
-    <img id="calories" src="../images/calories.png" alt=""> 
-</div>
-<div id="Barrenoire">
-  <img id="TexteRyu" src="../images/ryurising.png" alt="">
-</div>

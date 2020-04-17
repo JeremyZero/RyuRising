@@ -10,6 +10,8 @@
 <body>
 <?php include ('../Header/Header.php') ?>
 <?php include ('../Slidu/Slider.php') ?>
+<?php include ('../PresentSlider/PresantaSlide.php') ?>
+
 <script src="../Scriptu/script.js"></script>
 </body>
 </html>

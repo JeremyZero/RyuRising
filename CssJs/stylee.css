@@ -70,6 +70,7 @@ a:hover{
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 1em;
   /* padding-top: 10px; */
 }
 
@@ -136,6 +137,9 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   padding-top: 2em;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 2em;
 }
 
 #calories{
@@ -146,6 +150,7 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
 }
+
 #Barrenoire{
   width: 100%;
   background-color: rgb(23,40,61);
@@ -280,12 +285,16 @@ a{
   li {
     margin-bottom: 15px;
   }
+
   .container{
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+    display: flex;
+    justify-content: center;
   }
+
   #calories{
     width: 100%;
     max-width: 790px;
@@ -296,3 +305,21 @@ a{
     margin-top: 0;
   }
 }
+
+/* Class avec mes pots dedans */
+
+.imgp{
+  height: 30%;
+  width: 30%;
+  min-width: 80px;
+}
+
+/* .imgp:hover
+{
+  position: relative;
+  height: 32%;
+  width: 32%;
+  min-width: 80px;
+} */
+
+
