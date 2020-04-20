@@ -9,11 +9,11 @@
     </head>
 <body>
 <?php include ('../Include/Header/Header.php') ?>
-<?php include ('../Include/Slidu/Slider.php') ?>
-<?php include ('../Include/PresentSlider/PresantaSlide.php') ?>
+<?php include ('../Include/Slider/Slider.php') ?>
+<?php include ('../Include/PresentSlider/PresantSlider.php') ?>
 <?php include ('../Include/Footer/Footer.php') ?>
 
-<script src="../Scriptu/script.js"></script>
+<script src="../Script/script.js"></script>
 </body>
 </html>
 
