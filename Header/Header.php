@@ -1,5 +1,5 @@
 <header>
-    <img id="logo" src="tryheader3.png" alt="">
+    <img id="logo" src="../images/tryheader3.png" alt="">
     
   </header>
   <nav id="Barnav">
