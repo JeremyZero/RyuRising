@@ -7,8 +7,8 @@
   <div class="AllCG">
   <h3>CONDITIONS GÉNÉRALES</h3>
   <ul class="CG">
-    <li><a class="AllFooter" href="#">Politique de confidentialité</a></li>
-    <li><a class="AllFooter" href="#">CGV</a></li>
+    <li><a class="AllFooter" href="../Index/PC.php">Politique de confidentialité</a></li>
+    <li><a class="AllFooter" href="../Index/CGV.php">CGV</a></li>
   </ul>
 </div>
 <div class="APropos">
@@ -18,8 +18,8 @@
 </div>
 <div class="APropos">
   <h3>À PROPOS</h3>
-  <li><a class="AllFooter" href="#">Suivre ma commande</a></li>
-  <li><a class="AllFooter" href="#">Devenir Ambassadeur</a></li>
+  <li><a class="AllFooter" href="https://www.chronopost.fr/fr#/step-home">Suivre ma commande</a></li>
+  <li><a class="AllFooter" href="../Index/Ambassadeur.php">Devenir Ambassadeur</a></li>
 </div>
 </div>
 </footer>
