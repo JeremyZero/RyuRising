@@ -172,6 +172,13 @@ li{
   width: 30%;
   min-width: 80px;
 }
+.CGVdetails{
+  /* background-color: rgb(23,40,61); */
+  color: rgb(23,40,61);
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
 footer{
   background-color: rgb(23,40,61);
   text-align: center;
