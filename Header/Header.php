@@ -1,12 +1,13 @@
 <header>
-    <img id="logo" src="../images/tryheader3.png" alt="">    
+    <img id="logo" src="tryheader3.png" alt="">
+    
   </header>
   <nav id="Barnav">
-    <ul>
-        <li><a href="#">PRODUITS</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">QUI SOMMES NOUS ?</a></li>
+    <ul id="Nav">
+        <li><a class="AllNav" href="#">PRODUITS</a></li>
+        <li><a class="AllNav" href="#">SERVICES</a></li>
+        <li><a class="AllNav" href="#">CONTACT</a></li>
+        <li><a class="AllNav" href="#">QUI SOMMES NOUS ?</a></li>
     </ul>
 </nav>
   <div class="MyBurger">
@@ -19,11 +20,11 @@
      </div>
       <div class="mobile-menu">
         <nav>
-          <ul>
-            <li><a href="#">PRODUITS</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">QUI SOMMES NOUS ?</a></li>
+          <ul id="Nav">
+            <li><a class="AllNav" href="#">PRODUITS</a></li>
+            <li><a class="AllNav" href="#">SERVICES</a></li>
+            <li><a class="AllNav" href="#">CONTACT</a></li>
+            <li><a class="AllNav" href="#">QUI SOMMES NOUS ?</a></li>
           </ul>
         </nav>
       </div>
