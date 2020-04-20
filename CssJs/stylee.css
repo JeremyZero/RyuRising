@@ -3,12 +3,13 @@ html{
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-  color: whitesmoke;
+  color: #FF5555;
   background-color:rgb(23,40,61);
 }
 
 body{
   background-color: white;
+  color: #FF5555;
   margin-left: auto;
   margin-right: auto;
   max-width: 90%;
@@ -32,7 +33,7 @@ header{
 #Barnav{
   background-color: #FF5555;
 }
-ul{
+#Nav{
   list-style-type: none;
   text-decoration: none;
   display:flex;
@@ -52,14 +53,14 @@ li{
 .MyBurger{
   visibility: hidden;
 }  
-a{
+.AllNav{
   text-decoration: none;
-  color: black;
+  color: rgb(23,40,61);
   font-family: 'Oxanium', 'Spartan', 'Oswald';
   font-size: 22px;
 }
 
-a:hover{
+.AllNav:hover{
   background-color: rgb(23,40,61);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -70,7 +71,6 @@ a:hover{
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1em;
   /* padding-top: 10px; */
 }
 
@@ -96,7 +96,7 @@ a:hover{
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  /* top: 0; */
 }
 
 /* The dots/bullets/indicators */
@@ -137,9 +137,9 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   padding-top: 2em;
-  justify-content: center;
   display: flex;
-  padding-bottom: 2em;
+  justify-content: center;
+  padding-bottom: 2%;
 }
 
 #calories{
@@ -150,7 +150,6 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
 }
-
 #Barrenoire{
   width: 100%;
   background-color: rgb(23,40,61);
@@ -168,6 +167,45 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
 }
+.imgp{
+  height: 30%;
+  width: 30%;
+  min-width: 80px;
+}
+footer{
+  background-color: rgb(23,40,61);
+  text-align: center;
+  /* display: flex;
+  justify-content: space-around; */
+  padding: 0;
+}
+.FuckingCenter{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.CG{
+  padding-left: 0;
+}
+h3{
+  text-decoration: underline;
+}
+a:hover{
+  color: #FF5555;
+}
+#Shakerfooter{
+  width: 150px;
+}
+.AllFooter{
+  text-decoration: none;
+  color: white;
+}
+
+#Copyright{
+  background-color: rgb(23,40,61);
+  padding-top: 5%; 
+  text-align: center; 
+}
 
 @media screen and (max-width: 700px) {
   #logo{
@@ -180,7 +218,7 @@ a:hover{
     display: none;
     visibility: hidden;
   }
-  ul{
+  #Nav{
     list-style-type: none;
     text-decoration: none;
     display:initial;
@@ -190,6 +228,10 @@ a:hover{
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+.AllNav{
+  color: #FF5555;
+  font-size: 16px;
 }
 a{
   font-size: 16px;
@@ -285,16 +327,12 @@ a{
   li {
     margin-bottom: 15px;
   }
-
   .container{
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
-    display: flex;
-    justify-content: center;
   }
-
   #calories{
     width: 100%;
     max-width: 790px;
@@ -304,22 +342,29 @@ a{
     padding-top: 0;
     margin-top: 0;
   }
+  footer{
+    
+    max-width: 100%;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h3{
+    font-size: 8px;
+    padding-left: 0px;
+  }
+  .CG{
+    padding-left: 0;
+    line-height: 5%;
+  }
+  a{
+    font-size: 7px;
+    color: #FF5555;
+  }
+  #Copyright{
+    font-size: 8px;
+  }
+  #Shakerfooter{
+    width: 75px;
+  }
 }
-
-/* Class avec mes pots dedans */
-
-.imgp{
-  height: 30%;
-  width: 30%;
-  min-width: 80px;
-}
-
-/* .imgp:hover
-{
-  position: relative;
-  height: 32%;
-  width: 32%;
-  min-width: 80px;
-} */
-
-
