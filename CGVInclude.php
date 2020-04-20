@@ -131,13 +131,13 @@ Vous acceptez que de temps à autre, nous puissions supprimer le Service pour de
 
 Vous convenez expressément que votre utilisation du Service, ou votre incapacité à utiliser celui-ci, est à votre seul risque. Le Service ainsi que tous les produits et services qui vous sont fournis par le biais du Service sont (sauf mention expresse du contraire de notre part) fournis "tels quels" et "selon la disponibilité" pour votre utilisation, et ce sans représentation, sans garanties et sans conditions d'aucune sorte, expresses ou implicites, y compris toutes les garanties implicites de commercialisation ou de qualité marchande, d’adaptation à un usage particulier, de durabilité, de titre et d’absence de contrefaçon.
 
-REZ SAS EXCELSIOR, nos directeurs, responsables, employés, sociétés affiliées, agents, contractants, stagiaires, fournisseurs, prestataires de services et concédants ne peuvent en aucun cas être tenus responsables de toute blessure, perte, réclamation, ou de dommages directs, indirects, accessoires, punitifs, spéciaux, ou dommages consécutifs de quelque nature qu’ils soient, incluant mais ne se limitant pas à la perte de profits, de revenus, d’économies, de données, aux coûts de remplacement ou tous dommages similaires, qu’ils soient contractuels, délictuels (même en cas de négligence), de responsabilité stricte ou autre, résultant de votre utilisation de tout service ou produit provenant de ce Service, ou quant à toute autre réclamation liée de quelque manière que ce soit à votre utilisation du Service ou de tout produit, incluant mais ne se limitant à toute erreur ou omission dans tout contenu, ou à toute perte ou tout dommage de toute sorte découlant de l’utilisation du Service ou de tout contenu (ou produit) publié, transmis, ou autrement rendu disponible par le biais du Service, même si vous avez été avertis de la possibilité qu’ils surviennent. Parce que certains États ou certaines juridictions ne permettent pas d’exclure ou de limiter la responsabilité quant aux dommages consécutifs ou accessoires, notre responsabilité sera limitée dans la mesure maximale permise par la loi.
+RYU RISING SAS, nos directeurs, responsables, employés, sociétés affiliées, agents, contractants, stagiaires, fournisseurs, prestataires de services et concédants ne peuvent en aucun cas être tenus responsables de toute blessure, perte, réclamation, ou de dommages directs, indirects, accessoires, punitifs, spéciaux, ou dommages consécutifs de quelque nature qu’ils soient, incluant mais ne se limitant pas à la perte de profits, de revenus, d’économies, de données, aux coûts de remplacement ou tous dommages similaires, qu’ils soient contractuels, délictuels (même en cas de négligence), de responsabilité stricte ou autre, résultant de votre utilisation de tout service ou produit provenant de ce Service, ou quant à toute autre réclamation liée de quelque manière que ce soit à votre utilisation du Service ou de tout produit, incluant mais ne se limitant à toute erreur ou omission dans tout contenu, ou à toute perte ou tout dommage de toute sorte découlant de l’utilisation du Service ou de tout contenu (ou produit) publié, transmis, ou autrement rendu disponible par le biais du Service, même si vous avez été avertis de la possibilité qu’ils surviennent. Parce que certains États ou certaines juridictions ne permettent pas d’exclure ou de limiter la responsabilité quant aux dommages consécutifs ou accessoires, notre responsabilité sera limitée dans la mesure maximale permise par la loi.
 
 
 
 ARTICLE 14 – INDEMNISATION
 
-Vous acceptez d’indemniser, de défendre et de protéger REZ SAS EXCELSIOR, notre société-mère, nos filiales, sociétés affiliées, partenaires, responsables, directeurs, agents, contractants, concédants, prestataires de services, sous-traitants, fournisseurs, stagiaires et employés, quant à toute réclamation ou demande, incluant les honoraires raisonnables d’avocat, faite par toute tierce partie à cause de ou découlant de votre violation de ces Conditions Générales de Vente et d’Utilisation ou des documents auxquels ils font référence, ou de votre violation de toute loi ou des droits d’un tiers.
+Vous acceptez d’indemniser, de défendre et de protéger RYU RISING SAS, notre société-mère, nos filiales, sociétés affiliées, partenaires, responsables, directeurs, agents, contractants, concédants, prestataires de services, sous-traitants, fournisseurs, stagiaires et employés, quant à toute réclamation ou demande, incluant les honoraires raisonnables d’avocat, faite par toute tierce partie à cause de ou découlant de votre violation de ces Conditions Générales de Vente et d’Utilisation ou des documents auxquels ils font référence, ou de votre violation de toute loi ou des droits d’un tiers.
 
 
 ARTICLE 15 – DISSOCIABILITÉ
@@ -165,7 +165,7 @@ Toute ambiguïté quant à l’interprétation de ces Conditions Générales de 
 
 ARTICLE 18 – LOI APPLICABLE
 
-Ces Conditions Générales de Vente et d’Utilisation, ainsi que tout autre accord séparé par le biais duquel nous vous fournissons des Services seront régis et interprétés en vertu des lois en vigueur à  60 rue Blomet 75015 Paris, France.
+Ces Conditions Générales de Vente et d’Utilisation, ainsi que tout autre accord séparé par le biais duquel nous vous fournissons des Services seront régis et interprétés en vertu des lois en vigueur à  63 Avenue Simone Veil 06200 Nice, France.
 
 
 ARTICLE 19 – MODIFICATIONS APPORTÉES AUX CONDITIONS GÉNÉRALES DE VENTE ET D’UTILISATION
@@ -177,5 +177,5 @@ Nous nous réservons le droit, à notre seule discrétion, de mettre à jour, de
 
 ARTICLE 20 – COORDONNÉES
 
-Les questions concernant les Conditions Générales de Vente et d’Utilisation devraient nous être envoyées à info@rezenergydrink.com.</p>
+Les questions concernant les Conditions Générales de Vente et d’Utilisation devraient nous être envoyées à info@ryurising.com.</p>
 </div>
