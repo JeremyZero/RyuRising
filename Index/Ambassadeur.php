@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="../CssJs/stylee.css">
     </head>
 <body>
-<?php include ('../Header/Header.php') ?>
-<?php include ('../AmbassadeurInclude.php') ?>
-<?php include ('../Footer/Footer.php') ?>
+<?php include ('../Include/Header/Header.php') ?>
+<?php include ('../Include/Ambassadeur/AmbassadeurInclude.php') ?>
+<?php include ('../Include/Footer/Footer.php') ?>
 
 </body>
 </html>

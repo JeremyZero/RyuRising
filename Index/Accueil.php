@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="../CssJs/stylee.css">
     </head>
 <body>
-<?php include ('../Header/Header.php') ?>
-<?php include ('../PC.php') ?>
-<?php include ('../Footer/Footer.php') ?>
+<?php include ('../Include/Header/Header.php') ?>
+<?php include ('../Include/Slidu/Slider.php') ?>
+<?php include ('../Include/PresentSlider/PresantaSlide.php') ?>
+<?php include ('../Include/Footer/Footer.php') ?>
 
+<script src="../Scriptu/script.js"></script>
 </body>
 </html>
 
