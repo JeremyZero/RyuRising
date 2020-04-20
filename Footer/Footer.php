@@ -2,7 +2,7 @@
   <div class="FuckingCenter">
   <div class="Offres">
     <h3>OFFRE: -20% SUR LE PACK</h3>
-    <a href="#"><img id="Shakerfooter"src="packshaker.png" alt=""></a>
+    <a href="#"><img id="Shakerfooter"src="../images/packshaker.png" alt=""></a>
   </div>
   <div class="AllCG">
   <h3>CONDITIONS GÉNÉRALES</h3>
