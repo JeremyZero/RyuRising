@@ -1,4 +1,4 @@
-<div class="CGVdetails">
+<div class="footercat">
 <h2>CONDITIONS GÉNÉRALES DE VENTE ET D’UTILISATION</h2><br>
 
 ----<br>
