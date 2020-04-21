@@ -13,8 +13,8 @@
 </div>
 <div class="APropos">
   <h3>LIVRAISON</h3>
-  <li><a class="AllFooter" href="#">Livraison</a></li>
-  <li><a class="AllFooter" href="#">Échanges et retours</a></li>
+  <li><a class="AllFooter" href="../Index/Livraison.php">Livraison</a></li>
+  <li><a class="AllFooter" href="../Index/EchangeRetour.php">Échanges et retours</a></li>
 </div>
 <div class="APropos">
   <h3>À PROPOS</h3>
