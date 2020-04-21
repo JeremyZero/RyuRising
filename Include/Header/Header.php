@@ -1,5 +1,5 @@
 <header>
-    <img id="logo" src="../images/tryheader3.png" alt="">
+    <a href="../Index/Accueil.php"></a><img id="logo" src="../images/tryheader3.png" alt="">
     
   </header>
   <nav id="Barnav">
@@ -7,7 +7,7 @@
         <li><a class="AllNav" href="#">PRODUITS</a></li>
         <li><a class="AllNav" href="#">SERVICES</a></li>
         <li><a class="AllNav" href="#">CONTACT</a></li>
-        <li><a class="AllNav" href="#">QUI SOMMES NOUS ?</a></li>
+        <li><a class="AllNav" href="../Index/Quisommesnous.php">QUI SOMMES NOUS ?</a></li>
     </ul>
 </nav>
   <div class="MyBurger">
