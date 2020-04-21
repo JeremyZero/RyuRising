@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../CssJs/stylee.css">
     </head>
 <body>
-<?php include ('../Include/Header/Header.php') ?>
-<?php include ('../Include/Slider/Slider.php') ?>
-<?php include ('../Include/PresentSlider/PresantSlider.php') ?>
-<?php include ('../Include/Footer/Footer.php') ?>
+<?php include_once ('../Include/Header/Header.php') ?>
+<?php include_once ('../Include/Slider/Slider.php') ?>
+<?php include_once ('../Include/PresentSlider/PresantSlider.php') ?>
+<?php include_once ('../Include/Footer/Footer.php') ?>
 
 <script src="../Script/script.js"></script>
 </body>

@@ -9,7 +9,7 @@
     </head>
 <body>
 <?php include_once ('../Include/Header/Header.php') ?>
-<?php include_once ('../Include/PC/PCInclude.php') ?>
+<?php include_once ('../Include/QSN/QSN.php') ?>
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
 </body>
