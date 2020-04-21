@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="../CssJs/stylee.css">
     </head>
 <body>
+<<<<<<< HEAD
 <?php include ('../Include/Header/Header.php') ?>
 <?php include ('../Include/EchangeRetour/EC.php') ?>
 <?php include ('../Include/Footer/Footer.php') ?>
+=======
+<?php include_once ('../Header/Header.php') ?>
+<?php include_once ('../EC.php') ?>
+<?php include_once ('../Footer/Footer.php') ?>
+>>>>>>> master
 
 </body>
 </html>
