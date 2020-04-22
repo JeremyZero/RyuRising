@@ -176,7 +176,7 @@ li{
 .footercat{
   /* background-color: rgb(23,40,61); */
   color: rgb(23,40,61);
-  max-width: 85%;
+  /* max-width: 85%; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -375,4 +375,31 @@ a{
   #Shakerfooter{
     width: 75px;
   }
+}
+
+#imgQSN{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logoQSN{
+  width: 250px;
+}
+#QSN{
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#potsQSN{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 790px;
+}
+#Why, #EnergyPres{
+  text-align: center;
 }
