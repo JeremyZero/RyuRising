@@ -254,6 +254,7 @@ a{
     margin: auto;
     visibility: visible;
     z-index: 1;
+    display: block;
   }
   
   .mobile-menu {
