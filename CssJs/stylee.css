@@ -377,6 +377,7 @@ a{
   }
 }
 
+<<<<<<< Updated upstream
 #imgQSN{
   width: 100%;
   display: flex;
@@ -404,3 +405,14 @@ a{
 #Why, #EnergyPres{
   text-align: center;
 }
+=======
+/* Class Contact */
+
+.Lcontact
+{
+  height: 1500px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-image: url(../images/backgro.png);
+}
+>>>>>>> Stashed changes
