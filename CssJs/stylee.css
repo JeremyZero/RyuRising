@@ -417,6 +417,7 @@ a{
 .Lcontact
 {
   height: 770px;
+  /* height: 1150px; */
   background-size: 60%;
   background-repeat: no-repeat;
   background-image: url(../images/backgro.png);
