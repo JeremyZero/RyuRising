@@ -385,7 +385,8 @@ a{
   margin-right: auto;
 }
 #logoQSN{
-  width: 250px;
+  width: 100%;
+  max-width: 195px;
 }
 #QSN{
   justify-content: center;
