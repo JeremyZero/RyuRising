@@ -254,6 +254,7 @@ a{
     margin: auto;
     visibility: visible;
     z-index: 1;
+    display: block;
   }
   
   .mobile-menu {
@@ -377,6 +378,12 @@ a{
   #Shakerfooter{
     width: 75px;
   }
+  
+  .Lcontact
+  {
+    background-image: none;
+
+  }
 }
 
 #imgQSN{
@@ -409,9 +416,23 @@ a{
 
 .Lcontact
 {
-  height: 1500px;
-  background-size: 80%;
+  height: 770px;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-image: url(../images/backgro.png);
+  background-color:rgb(23,40,61);
 }
 
+#Conta{
+  background-color:white;
+  border-radius: 1em ;
+  max-width: 400px;
+  padding: 3px;
+  float: right;
+  margin-top: 15%;
+  margin-right: 15%;
+}
+
+.week{
+  font-size: 14px;
+}

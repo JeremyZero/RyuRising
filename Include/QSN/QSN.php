@@ -23,12 +23,12 @@ du coup ça semblait logique pour nous de créer une boisson qui allie nos passi
 </div>
 <div id="Why">
 <h4>Pourquoi Ryu Rising ?</h4>
-<ul>
-<li>C’est sain (fait avec des arômes et des colorants naturels / sans conservateurs).</li>
-<li>Diététique (contient 0g de sucre et seulement 30 calories).</li>
-<li>Économique (40 shakers par pot, soit moins d'1€ par shaker).</li>
-<li>C’est fabriqué en France.</li>
-<li>On offre la livraison.</li>
+<ul id="PourquoiRR">
+<li class="arguments">C’est sain (fait avec des arômes et des colorants naturels / sans conservateurs).</li>
+<li class="arguments">Diététique (contient 0g de sucre et seulement 30 calories).</li>
+<li class="arguments">Économique (40 shakers par pot, soit moins d'1€ par shaker).</li>
+<li class="arguments">C’est fabriqué en France.</li>
+<li class="arguments">On offre la livraison.</li>
 </ul>
 </div>
 </div>
