@@ -52,6 +52,7 @@ li{
 }
 .MyBurger{
   visibility: hidden;
+  display: none;
 }  
 .AllNav{
   text-decoration: none;
