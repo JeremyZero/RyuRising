@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="../CssJs/stylee.css">
     </head>
 <body>
-    
+
 <?php include_once ('../Include/Header/Header.php') ?>
 <?php include_once ('../Include/Contact/Contactu.php') ?>
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
+<script src="../Script/script.js"></script>
 </body>
 </html>
