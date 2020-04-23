@@ -1,10 +1,13 @@
 <header>
     <a href="../Index/Accueil.php"><img id="logo" src="../images/tryheader3.png" alt=""></a>
+  <div class="Panier">
+    <a href="#"><img id="Pan" src="../images/caddie.png" alt=""></a>
+  </div>
     
   </header>
   <nav id="Barnav">
     <ul id="Nav">
-        <li><a class="AllNav" href="#">PRODUITS</a></li>
+        <li><a class="AllNav" href="../Index/Produits.php">PRODUITS</a></li>
         <li><a class="AllNav" href="#">SERVICES</a></li>
         <li><a class="AllNav" href="../Index/Contact.php">CONTACT</a></li>
         <li><a class="AllNav" href="../Index/Quisommesnous.php">QUI SOMMES NOUS ?</a></li>

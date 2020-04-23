@@ -437,3 +437,8 @@ a{
 .week{
   font-size: 14px;
 }
+
+.Panier{
+  display: flex;
+  justify-content: center;
+}
