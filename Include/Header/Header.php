@@ -1,9 +1,19 @@
 <header>
     <a href="../Index/Accueil.php"><img id="logo" src="../images/tryheader3.png" alt=""></a>
-  <div class="Panier">
+
+    <div class="Panier">
     <a href="#"><img id="Pan" src="../images/caddie.png" alt=""></a>
-  </div>
-    
+    <ul id="Monnaie">
+      <li class="items">
+        ITEMS <br>
+      <span>13</span>
+    </li>
+    <li class="Total">
+      TOTAL <br>
+      <span>1000</span>
+    </li>
+  </ul>
+    </div>  
   </header>
   <nav id="Barnav">
     <ul id="Nav">
