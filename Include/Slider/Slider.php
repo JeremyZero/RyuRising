@@ -3,32 +3,32 @@
 
         <div class="mySlides fade">
           <div class="numbertext">1 / 6</div>
-          <img class="imgslide" src="../images/1.png" style="width:100%">
+          <img class="imgslide" src="../images/11.png" style="width:100%">
         </div>
         
         <div class="mySlides fade">
           <div class="numbertext">2 / 6</div>
-          <img class="imgslide" src="../images/2.png" style="width:100%">
+          <img class="imgslide" src="../images/22.png" style="width:100%">
         </div>
         
         <div class="mySlides fade">
           <div class="numbertext">3 / 6</div>
-          <img class="imgslide" src="../images/3.png" style="width:100%">
+          <img class="imgslide" src="../images/33.png" style="width:100%">
         </div>
         
         <div class="mySlides fade">
             <div class="numbertext">4 / 6</div>
-            <img class="imgslide" src="../images/4.png" style="width:100%">
+            <img class="imgslide" src="../images/44.png" style="width:100%">
           </div>
         
           <div class="mySlides fade">
             <div class="numbertext">5 / 6</div>
-            <img class="imgslide" src="../images/5.png" style="width:100%">
+            <img class="imgslide" src="../images/55.png" style="width:100%">
           </div>
         
           <div class="mySlides fade">
             <div class="numbertext">6 / 6</div>
-            <img class="imgslide" src="../images/6.png" style="width:100%">
+            <img class="imgslide" src="../images/66.png" style="width:100%">
           </div>
         
         </div>

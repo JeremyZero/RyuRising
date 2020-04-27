@@ -1,4 +1,8 @@
-<header>
+ <?php 
+ require '../Bassededonne/_Hearder.php';
+?>
+
+ <header>
     <a href="../Index/Accueil.php"><img id="logo" src="../images/tryheader3.png" alt=""></a>
 
     <div class="Panier">
@@ -15,6 +19,7 @@
   </ul>
     </div>  
   </header>
+
   <nav id="Barnav">
     <ul id="Nav">
         <li><a class="AllNav" href="../Index/Produits.php">PRODUITS</a></li>
