@@ -2,7 +2,7 @@
 class panier{
 
     public function __construct(){
-
+//  MA SESSION ME PERMET DE NE PAS PERDRE LES DONNEE DU PANIER QUAND LE CLIENT CHANGE DE PAGES MAIS SI IL RAFRAICHIE CELA REVIEN A 0
         if(!isset($_SESSION));{
             session_start();
         }
