@@ -1,5 +1,6 @@
 <?php
 class DB{
+    // ma connextion a ma basse de donneés 
     private $host ='localhost';
     private $username = 'root';
     private $password = '';
@@ -26,6 +27,7 @@ class DB{
 
     }
     
+    //ma requete SQL Preparé pour ma page produits 
     public function query($sql){
         $req =$this->db->prepare($sql);
         $req->execute();
