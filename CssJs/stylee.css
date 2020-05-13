@@ -1,226 +1,255 @@
-html{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-  color: #FF5555;
-  background-color:rgb(23,40,61);
+html{                                                             /* s'applique sur tous les élements dans la balise html */
+  margin: 0;                                                      /* défini un margin à 0 sur tous les côtés */
+  padding: 0;                                                     /* défini un padding à 0 sur tous les côtés */
+  width: 100%;                                                    /* défini la largeur à 100% du bloc parent */
+  overflow-x: hidden;                                             /* cache le scroll horizontal */
+  color: #FF5555;                                               /* défini la couleur de la font */
+  background-color:rgb(23,40,61);                               /* défini ma couleur de fond */
 }
-
-body{
-  background-color: white;
-  color: #FF5555;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 90%;
-  padding: 0;
-  height: 100%;
-  font-family: 'Oxanium', 'Spartan', 'Oswald';
+body{                                                              /* s'applique sur tous les élements dans la balise body */
+  background-color: white;                                       /* défini la couleur de fond */
+  color: #FF5555;                                                /* défini la couleur de la font */
+  max-width: 90%;                                                  /* défini la largeur maximum de mon body a 90% de son parent */
+  margin-left: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
+  margin-right: auto;                                              /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
+  padding: 0;                                                      /* défini un padding à 0 sur tous les côtés */
+  height: 100%;                                                    /* défini la hauteur de mon body à 100% du bloc parent */
+  font-family: 'Oxanium', 'Spartan', 'Oswald';                     /* je choisi 3 font différentes au cas où le navigateur ne reconnaisse pas la première etc */
 }
-
-header{
-  position: relative;
-  display: flex;
-  height: auto;
-  width: 100%;
-  padding-top: 1%;
-  background-color:  rgb(23,40,61);
+header{                                                            /* s'applique sur tous les élements dans la balise header */
+  display: flex;                                                   /* affiche mes élements sous forme de boites flexibles */
+  height: auto;                                                    /* défini une hauteur automatique selon le contenu et la hauteur du bloc parent */
+  width: 100%;                                                     /* défini la largeur à 100% du bloc parent */
+  padding-top: 1%;                                                 /* défini un padding sur le haut du header de 1% */
+  background-color:  rgb(23,40,61);                              /* défini ma couleur de fond */
 }
-
-#logo{
-  width: 200px;
-  margin-bottom: 0;
-  padding-left: 2%;
+#logo{                                                              /* s'applique sur mon élement qui possède l'id "logo" */
+  width: 200px;                                                     /* défini une largeur de 200 pixels */
+  margin-bottom: 0;                                                 /* défini un margin sur le bas de l'élement à 0 */
+  padding-left: 2%;                                                 /* défini un padding sur le côté gauche de l'élement à 2% */
 }
-#Barnav{
-  background-color: #FF5555;
+#Barnav{                                                            /* s'applique sur mon élement qui possède l'id "Barnav" */
+  background-color: #FF5555;                                      /* défini la couleur de fond */
 }
-#Nav{
-  list-style-type: none;
-  text-decoration: none;
-  display:flex;
-  justify-content: space-around;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 0;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+#Nav{                                                               /* s'applique sur mon élement qui possège l'id "Nav" */
+  list-style-type: none;                                            /* retire les puces des listes */
+  text-decoration: none;                                            /* retire les décorations des ancres */
+  display:flex;                                                     /* affiche mes élements sous forme de boites flexibles */
+  justify-content: space-around;                                    /* espace mes élements de manière équitable par rapport au bord de la page */
+  padding-top: 10px;                                                /* défini un padding en haut de l'élement de 10 pixels */
+  padding-bottom: 10px;                                             /* défini un padding en bas de l'élement de 10 pixels */
+  margin-top: 0;                                                    /* défini un margin en haut de l'élement à 0 */
+  max-width: 100%;                                                  /* défini la largeur maximum à 100% du bloc parent */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-bottom: 0;                                                 /* défini un margin en bas de l'élement à 0 */
 }
-
-li{
-  list-style-type: none;
-  text-decoration: none;
+li{                                                                 /* s'applique à tous les li */
+  list-style-type: none;                                            /* retire les puces des listes */
+  text-decoration: none;                                            /* retire les décorations des ancres */
 }
-.MyBurger{
-  visibility: hidden;
-  display: none;
+.MyBurger{                                                          /* s'applique à mes élements qui possèdent la classe "MyBurger" */
+  visibility: hidden;                                               /* cache sa visibilité */
+  display: none;                                                    /* cache cet élement */
 }  
-.AllNav{
+.AllNav{                                                            /* s'applique à mes élements qui possèdent la classe "AllNav" */
   text-decoration: none;
-  color: rgb(23,40,61);
-  font-family: 'Oxanium', 'Spartan', 'Oswald';
-  font-size: 22px;
+  color: rgb(23,40,61);                                           /* défini la couleur de la font */
+  font-family: 'Oxanium', 'Spartan', 'Oswald';                      /* je choisi 3 font différentes au cas où le navigateur ne reconnaisse pas la première etc */
+  font-size: 22px;                                                  /* défini la taille de la font à 22 pixels */
 }
-
-.AllNav:hover{
-  background-color: rgb(23,40,61);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #FF5555;
+.AllNav:hover{                                                      /* s'applique lorsque l'utilisateur place son curseur sur un élement possédant la classe "AllNav" */
+  background-color: rgb(23,40,61);                                /* défini la couleur de fond */
+  padding-top: 10px;                                                /* défini un padding en haut de l'élement de 10 pixels */
+  padding-bottom: 10px;                                             /* défini un padding en bas de l'élement de 10 pixels */
+  color: #FF5555;                                                 /* défini la couleur de la font */
 }
-
-.container{
-  max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  /* padding-top: 10px; */
+.container{                                                         /* s'applique sur les élements possédant la classe "container" */
+  max-width: 75%;                                                   /* défini la largeur maximum à 75 % */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
 }
-
-.mySlides{
-  display: none;
+.mySlides{                                                          /* s'applique sur les élements possédant la classe "mySlides" */
+  display: none;                                                    /* cache cet élement */
 }
-
-.imgslide{
-  vertical-align: middle;
+.imgslide{                                                          /* s'applique sur les élements possédant la classe "imgslide" */
+  vertical-align: middle;                                           /* aligne le milieu de l'élément avec la hauteur donnée par la ligne de base de l'élément parent à laquelle on ajoute la moitié de sa hauteur */
 }
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1500px;
-  position: relative;
-  margin: auto;
+.slideshow-container {                                              /* s'applique sur mes élements de classe "slideshow-container" */
+  max-width: 1500px;                                                /* défini la largeur maximum à 1500 pixels */
+  position: relative;                                               /* place l'élement dans une position relative défini par un axe vertical et horizontal */
+  margin: auto;                                                     /* défini tous les margin automatiquement */
 }
-
-
-/* Number text (1/6 etc) */
-.numbertext {
-  color: #FF5555;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  /* top: 0; */
+.numbertext {                                                       /* s'applique sur les élements possédant la classe "numbertext" */
+  color: #FF5555;                                                 /* défini la couleur de la font */
+  font-size: 12px;                                                  /* défini la taille de la font */
+  padding: 8px 12px;                                                /* défini un padding de 8 pixels en vertical et 12 pixels en horizontal */
+  position: absolute;                                               /* retire l'élement du flux normal et aucun espace n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */
 }
-
-/* The dots/bullets/indicators */
-/* .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-} */
-
-/* .active {
-  background-color: #FF5555;
-} */
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.fade {                                                             /* s'applique aux élements possédant la classe "fade" */
+  -webkit-animation-name: fade;                                     /* défini l'animation avec le nom fade */
+  -webkit-animation-duration: 1.5s;                                 /* défini la durée de l'animation à 1.5s */
+  animation-name: fade;                                             /* défini l'animation avec le nom fade */
+  animation-duration: 1.5s;                                         /* défini la durée de l'animation à 1.5s */
 }
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@-webkit-keyframes fade {                                           /* appel de l'animation */
+  from {opacity: .4}                                                /* passe d'une opacité de 0.4 */
+  to {opacity: 1}                                                   /* à une opacité de 1 */
 }
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@keyframes fade {                                                   /* appel de l'animation */
+  from {opacity: .4}                                                /* passe d'une opacité de 0.4 */
+  to {opacity: 1}                                                   /* à une opacité de 1 */
 }
-
-.Global{
-  max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 2em;
+.Global{                                                            /* s'applique aux élements possédant la classe "Global" */
+  max-width: 75%;                                                   /* défini la largeur maximum à 75% */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  padding-top: 2em;                                                 /* défini un padding en haut de 2em */
+  display: flex;                                                    /* affiche mes élements sous forme de boites flexibles */
+  justify-content: center;                                          /* centre mes élements à partir du centre */
+  padding-bottom: 2%;                                               /* défini un padding en bas de 2% */
+}
+#calories{                                                          /* s'applique à mon élement possédant l'id "calories" */
+  width: 100%;                                                      /* défini la largeur à 100% */
+  max-width: 790px;                                                 /* défini la largeur maximum à 790 pixels */
+  height: auto;                                                     /* défini la hauteur automatiquement */
+  display: block;                                                   /* affiche mes élements en bloc */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+} 
+#Barrenoire{                                                        /* s'applique à mon élement possédant l'id "Barrenoire" */
+  width: 100%;                                                      /* défini la largeur à 100% */
+  background-color: rgb(23,40,61);                                /* défini la couleur de fond */
+  color: #FF5555;                                                 /* défini la couleur de la font */
+  font-size: 56px;                                                  /* défini la taille de la font */
+  text-align: center;                                               /* aligne mon texte */
+  padding-top: 10px;                                                /* défini un padding en haut de 10 pixels */
+}
+#TexteRyu{                                                          /* s'applique a mon élement possédant l'id "TexteRyu" */
+  width: 50%;                                                       /* défini la largeur à 50% */
+  max-width: 790px;                                                 /* défini la largeur maximum à 790 pixels */
+  height: auto;                                                     /* défini la hauteur automatiquement */
+  display: block;                                                   /* affiche mes élements en bloc */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+}
+.imgp{                                                              /* s'applique aux élements possédant la classe "imgp" */
+  height: 30%;                                                      /* défini une hauteur de 30% */
+  width: 30%;                                                       /* défini une largeur de 30% */
+  min-width: 80px;                                                  /* défini une largeur minimum de 80 pixels */
+}
+.footercat{                                                         /* s'applique aux élements possédant la classe "footercat" */
+  color: rgb(23,40,61);                                           /* défini la couleur de la font */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+}
+footer{                                                             /* s'applique à mon footer */
+  background-color: rgb(23,40,61);                                /* défini la couleur de fond */
+  text-align: center;                                               /* aligne mon texte */
+  padding: 0;                                                       /* défini le padding de tous les côtés à 0 */
+}
+.FuckingCenter{                                                     /* s'applique aux élements possédant la classe "FuckingCenter" */                                            
+  width: 100%;                                                      /* défini la largeur à 100% */
+  display: flex;                                                    /* affiche mes élements sous forme de boites flexibles */
+  justify-content: space-around;                                    /* espace mes élements de manière équitable par rapport au bord de la page */
+}
+.CG{                                                                /* s'applique aux élements possédant la classe "CG" */
+  padding-left: 0;                                                  /* défini un padding à gauche à 0 */
+}
+h3{                                                                 /* s'applique à mes h3 */
+  text-decoration: underline;                                       /* sous ligne mes élements */
+}
+a:hover{                                                            /* s'applique lorsque l'utilisateur place son curseur sur une ancre */
+  color: #FF5555;                                                 /* défini la couleur de la font */
+}
+#Shakerfooter{                                                      /* s'applique à l'élement possédant l'id "Shakerfooter" */
+  width: 150px;                                                     /* défini la largeur à 150 pixels */
+}
+.AllFooter{                                                         /* s'applique aux élements possédant la classe "AllFooter" */
+  text-decoration: none;                                            /* retire la décoration des ancres */
+  color: white;                                                   /* défini la couleur de la font */
+}
+#Copyright{                                                         /* s'applique à l'élement possédant l'id "Copyright" */
+  background-color: rgb(23,40,61);                                /* défini la couleur de fond */
+  padding-top: 5%;                                                  /* défini le padding du haut à 5% */
+  text-align: center;                                               /* aligne mon texte */
+}
+#imgQSN{
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#calories{
+#logoQSN{
+  width: 100%;
+  max-width: 195px;
+}
+#QSN{
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+#potsQSN{
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 790px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
-#Barrenoire{
-  width: 100%;
-  background-color: rgb(23,40,61);
-  color: #FF5555;
-  font-size: 56px;
+#Why, #EnergyPres{
   text-align: center;
-  padding-top: 10px;
 }
-
-#TexteRyu{
-  width: 50%;
-  max-width: 790px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.Lcontact{
+  height: 770px;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-image: url(../images/backgro.png);
+  background-color:rgb(23,40,61);
 }
-.imgp{
-  height: 30%;
-  width: 30%;
-  min-width: 80px;
+#Conta{
+  background-color:white;
+  border-radius: 1em ;
+  max-width: 400px;
+  padding: 3px;
+  float: right;
+  margin-top: 15%;
+  margin-right: 15%;
 }
-
-.footercat{
-  /* background-color: rgb(23,40,61); */
-  color: rgb(23,40,61);
-  /* max-width: 85%; */
-  margin-left: auto;
-  margin-right: auto;
+.week{
+  font-size: 14px;
 }
-
-footer{
-  background-color: rgb(23,40,61);
-  text-align: center;
-  /* display: flex;
-  justify-content: space-around; */
-  padding: 0;
+#Pan{
+display: flex;
+ }
+.Panier{
+display: flex;
+position: absolute;
+top: 8px;
+right: 16px;
 }
-.FuckingCenter{
-  width: 100%;
+#Monnaie{
   display: flex;
-  justify-content: space-around;
 }
-.CG{
-  padding-left: 0;
+.Total{
+  padding-left: 10px;
 }
-h3{
-  text-decoration: underline;
+#Tori{
+  padding-top: 1em;
+  height: 20%;
+  width: 20% ;
 }
-a:hover{
-  color: #FF5555;
+.contienlo{
+  width: 20%;
 }
-#Shakerfooter{
-  width: 150px;
-}
-.AllFooter{
-  text-decoration: none;
-  color: white;
+.Mini{
+  height: 10%;
+  width: 10%;
 }
 
-#Copyright{
-  background-color: rgb(23,40,61);
-  padding-top: 5%; 
-  text-align: center; 
-}
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 700px) {                              /* media queries pour les écrans allant jusqu'à 700pixels */
   #logo{
     width: 50px;
     display: block;
@@ -258,7 +287,6 @@ a{
     z-index: 1;
     display: block;
   }
-  
   .mobile-menu {
     position: absolute;
     left: 0;
@@ -277,7 +305,6 @@ a{
     opacity: 1;
     pointer-events: all;
   }
-  
   .burger-wrap {
     position: absolute;
     z-index: 40;
@@ -287,7 +314,6 @@ a{
     opacity: 0;
     animation: 0.5s 2s fadeAppear ease-out forwards;
   }
-  
   @keyframes fadeAppear {
     0% {
       opacity: 0;
@@ -380,13 +406,12 @@ a{
   #Shakerfooter{
     width: 75px;
   }
-  
-  .Lcontact
-  {
+  .Lcontact{
     background-image: none;
 
   }
 }
+<<<<<<< HEAD
 
 #imgQSN{
   width: 100%;
@@ -475,3 +500,5 @@ right: 16px;
   height: 10%;
   width: 10%;
 }
+=======
+>>>>>>> master
