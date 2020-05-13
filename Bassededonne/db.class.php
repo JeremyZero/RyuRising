@@ -28,9 +28,11 @@ class DB{
     }
     
     //ma requete SQL Preparé pour ma page produits 
-    public function query($sql){
+    // $data je crée un second paramètre et par defaut ce sera un tableau vide
+    public function query($sql , $data = array()){
         $req =$this->db->prepare($sql);
-        $req->execute();
+        // Ducoup le tableau je l'inject au moment du execute 
+        $req->execute($data);
         return ($req->fetchAll(PDO::FETCH_OBJ));
     }
 }
