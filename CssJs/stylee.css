@@ -174,77 +174,77 @@ a:hover{                                                            /* s'appliqu
   padding-top: 5%;                                                  /* défini le padding du haut à 5% */
   text-align: center;                                               /* aligne mon texte */
 }
-#imgQSN{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+#imgQSN{                                                            /* s'applique à l'élement possédant l'id "imgQSN" */
+  width: 100%;                                                      /* défini la largeur à 100% */
+  display: flex;                                                    /* affiche mes élements sous forme de boites flexibles */
+  justify-content: center;                                          /* centre mes élements à partir du centre */ 
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
 }
-#logoQSN{
-  width: 100%;
-  max-width: 195px;
+#logoQSN{                                                           /* s'applique à l'élement possédant l'id "logoQSN" */
+  width: 100%;                                                      /* défini la largeur à 100% */
+  max-width: 195px;                                                 /* défini la largeur maximum à 195 pixels */
 }
-#QSN{
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  text-align: center;
+#QSN{                                                               /* s'applique à l'élement possédant l'id "QSN" */
+  justify-content: center;                                          /* centre mes élements à partir du centre */
+  width: 100%;                                                      /* défini la largeur à 100% */
+  height: auto;                                                     /* défini la hauteur automatiquement */
+  text-align: center;                                               /* aligne mon texte */
 }
-#potsQSN{
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: 790px;
+#potsQSN{                                                           /* s'applique à l'élement possédant l'id "potsQSN" */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+  width: 100%;                                                      /* défini la largeur à 100% */
+  max-width: 790px;                                                 /* défini la largeur maximum à 790 pixels */
 }
-#Why, #EnergyPres{
-  text-align: center;
+#Why, #EnergyPres{                                                  /* s'applique à l'élement possédant l'id "Why", ainsi qu'à l'élement possédant l'id "EnergyPres" */
+  text-align: center;                                               /* aligne mon texte */
 }
-.Lcontact{
-  height: 770px;
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-image: url(../images/backgro.png);
-  background-color:rgb(23,40,61);
+.Lcontact{                                                          /* s'applique aux élements possédant la classe "Lcontact" */
+  height: 770px;                                                    /* défini la hauteur à 770 pixels */
+  background-size: 60%;                                             /* défini la taille du fond à 60% */
+  background-repeat: no-repeat;                                     /* évite que le fond ne soit multiplié pour remplir entierement la page */
+  background-image: url(../images/backgro.png);                     /* chemin vers l'image de fond */
+  background-color:rgb(23,40,61);                                 /* défini la couleur du fond */
 }
-#Conta{
-  background-color:white;
-  border-radius: 1em ;
-  max-width: 400px;
-  padding: 3px;
-  float: right;
-  margin-top: 15%;
-  margin-right: 15%;
+#Conta{                                                             /* s'applique à l'élement possédant l'id "Conta" */
+  background-color:white;                                         /* défini la couleur du fond */
+  border-radius: 1em ;                                              /* défini une bordure arrondie de 1em */
+  max-width: 400px;                                                 /* défini la largeur maximum à 400 pixels */
+  padding: 3px;                                                     /* défini un padding sur tous les cotés de 3 pixels */
+  float: right;                                                     /* place mon élement à droite */
+  margin-top: 15%;                                                  /* défini un margin en haut de 15% */
+  margin-right: 15%;                                                /* défini un margin à droite de 15% */
 }
-.week{
-  font-size: 14px;
+.week{                                                              /* s'applique aux élements possédant la classe "week" */
+  font-size: 14px;                                                  /* défini la taille de la font */
 }
-#Pan{
-display: flex;
+#Pan{                                                               /* s'applique à l'élement possédant l'id "Pan" */
+display: flex;                                                      /* affiche mes élements sous forme de boites flexibles */
  }
-.Panier{
-display: flex;
-position: absolute;
-top: 8px;
-right: 16px;
+.Panier{                                                            /* s'applique aux élements possédant la classe "Panier" */
+display: flex;                                                      /* affiche mes élements sous forme de boites flexibles */
+position: absolute;                                                 /* retire l'élement du flux normal et aucun espace n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */
+top: 8px;                                                           /* place l'élement à 8 pixels du haut de la page */
+right: 16px;                                                        /* place l'élement à 16 pixels de la droite de la page */
 }
-#Monnaie{
-  display: flex;
+#Monnaie{                                                           /* s'applique à l'élement possédant l'id "Monnaie" */
+  display: flex;                                                    /* affiche mes élements sous forme de boites flexibles */
 }
-.Total{
-  padding-left: 10px;
+.Total{                                                             /* s'applique aux élements possédant la classe "Total" */
+  padding-left: 10px;                                               /* défini un padding sur la gauche de 10 pixels */
 }
-#Tori{
-  padding-top: 1em;
-  height: 20%;
-  width: 20% ;
+#Tori{                                                              /* s'applique à l'élement possédant l'id "Tori" */
+  padding-top: 1em;                                                 /* défini un padding en haut de 1 em */
+  height: 20%;                                                      /* défini la hauteur à 20% */
+  width: 20% ;                                                      /* défini la largeur à 20% */
 }
-.contienlo{
-  width: 20%;
+.contienlo{                                                         /* s'applique aux élements possédant la classe "contienlo" */
+  width: 20%;                                                       /* défini la largeur à 20% */
 }
-.Mini{
-  height: 10%;
-  width: 10%;
+.Mini{                                                              /* s'applique aux élements possédant la classe "Mini" */
+  height: 10%;                                                      /* défini la hauteur à 10% */
+  width: 10%;                                                       /* défini la largeur à 10% */
 }
 
 
