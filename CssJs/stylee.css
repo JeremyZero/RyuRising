@@ -1,27 +1,27 @@
-html{                                                             /* s'applique sur tous les élements dans la balise html */
-  margin: 0;                                                      /* défini un margin à 0 sur tous les côtés */
-  padding: 0;                                                     /* défini un padding à 0 sur tous les côtés */
-  width: 100%;                                                    /* défini la largeur à 100% du bloc parent */
-  overflow-x: hidden;                                             /* cache le scroll horizontal */
-  color: #FF5555;                                               /* défini la couleur de la font */
-  background-color:rgb(23,40,61);                               /* défini ma couleur de fond */
+html{                                                               /* s'applique sur tous les élements dans la balise html */
+  margin: 0;                                                        /* défini un margin à 0 sur tous les côtés */
+  padding: 0;                                                       /* défini un padding à 0 sur tous les côtés */
+  width: 100%;                                                      /* défini la largeur à 100% du bloc parent */
+  overflow-x: hidden;                                               /* cache le scroll horizontal */
+  color: #FF5555;                                                 /* défini la couleur de la font */
+  background-color:rgb(23,40,61);                                 /* défini ma couleur de fond */
 }
-body{                                                              /* s'applique sur tous les élements dans la balise body */
-  background-color: white;                                       /* défini la couleur de fond */
-  color: #FF5555;                                                /* défini la couleur de la font */
-  max-width: 90%;                                                  /* défini la largeur maximum de mon body a 90% de son parent */
-  margin-left: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
-  margin-right: auto;                                              /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
-  padding: 0;                                                      /* défini un padding à 0 sur tous les côtés */
-  height: 100%;                                                    /* défini la hauteur de mon body à 100% du bloc parent */
-  font-family: 'Oxanium', 'Spartan', 'Oswald';                     /* je choisi 3 font différentes au cas où le navigateur ne reconnaisse pas la première etc */
+body{                                                               /* s'applique sur tous les élements dans la balise body */
+  background-color: white;                                        /* défini la couleur de fond */
+  color: #FF5555;                                                 /* défini la couleur de la font */
+  max-width: 90%;                                                   /* défini la largeur maximum de mon body a 90% de son parent */
+  margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
+  margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
+  padding: 0;                                                       /* défini un padding à 0 sur tous les côtés */
+  height: 100%;                                                     /* défini la hauteur de mon body à 100% du bloc parent */
+  font-family: 'Oxanium', 'Spartan', 'Oswald';                      /* je choisi 3 font différentes au cas où le navigateur ne reconnaisse pas la première etc */
 }
-header{                                                            /* s'applique sur tous les élements dans la balise header */
-  display: flex;                                                   /* affiche mes élements sous forme de boites flexibles */
-  height: auto;                                                    /* défini une hauteur automatique selon le contenu et la hauteur du bloc parent */
-  width: 100%;                                                     /* défini la largeur à 100% du bloc parent */
-  padding-top: 1%;                                                 /* défini un padding sur le haut du header de 1% */
-  background-color:  rgb(23,40,61);                              /* défini ma couleur de fond */
+header{                                                             /* s'applique sur tous les élements dans la balise header */
+  display: flex;                                                    /* affiche mes élements sous forme de boites flexibles */
+  height: auto;                                                     /* défini une hauteur automatique selon le contenu et la hauteur du bloc parent */
+  width: 100%;                                                      /* défini la largeur à 100% du bloc parent */
+  padding-top: 1%;                                                  /* défini un padding sur le haut du header de 1% */
+  background-color:  rgb(23,40,61);                               /* défini ma couleur de fond */
 }
 #logo{                                                              /* s'applique sur mon élement qui possède l'id "logo" */
   width: 200px;                                                     /* défini une largeur de 200 pixels */
@@ -250,164 +250,163 @@ right: 16px;                                                        /* place l'�
 
 
 @media screen and (max-width: 700px) {                              /* media queries pour les écrans allant jusqu'à 700pixels */
-  #logo{
-    width: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  #logo{                                                            /* s'applique sur mon élement qui possède l'id "logo" */
+    width: 50px;                                                    /* défini la largeur à 50 pixels */
+    display: block;                                                 /* affiche mes élements en bloc */
+    margin-left: auto;                                              /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+    margin-right: auto;                                             /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
   }
-  #Barnav{
-    display: none;
-    visibility: hidden;
+  #Barnav{                                                          /* s'applique à l'élement possédant l'id "Barnav" */
+    display: none;                                                  /* cache cet élement */
+    visibility: hidden;                                             /* cache sa visibilité */
   }
-  #Nav{
-    list-style-type: none;
-    text-decoration: none;
-    display:initial;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  #Nav{                                                             /* s'applique à l'élement possédant l'id "Nav" */
+    list-style-type: none;                                          /* retire les puces des lites */
+    text-decoration: none;                                          /* retire les décorations des ancres */
+    display:initial;                                                /* rétabli l'affichage par défaut */
+    justify-content: space-around;                                  /* espace mes élements de manière équitable par rapport au bord de la page */
+    padding-top: 10px;                                              /* défini un padding en haut de 10 pixels */
+    padding-bottom: 10px;                                           /* défini un padding en bas de 10 pixels */
+    max-width: 100%;                                                /* défini la largeur maximum à 100% */
+    margin-left: auto;                                              /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+    margin-right: auto;                                             /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
 }
-.AllNav{
-  color: #FF5555;
-  font-size: 16px;
+.AllNav{                                                            /* s'applique aux élements possédant la classe "AllNav" */
+  color: #FF5555;                                                 /* défini la couleur de la font */
+  font-size: 16px;                                                  /* défini la taille de la font */
 }
-a{
-  font-size: 16px;
-  color: #FF5555;
+a{                                                                  /* s'applique aux ancres */
+  font-size: 16px;                                                  /* défini la taille de la font */
+  color: #FF5555;                                                 /* défini la couleur de la font */
 }
-  .MyBurger {
-    position: fixed;
-    width: 375px;
-    margin: auto;
-    visibility: visible;
-    z-index: 1;
-    display: block;
+  .MyBurger {                                                       /* s'applique aux élements possédant la classe "MyBurger" */
+    position: fixed;                                                /* l'élement est positionné en superposition de manière fixe à l'écran peu importe où on se trouve sur la page */
+    width: 375px;                                                   /* défini la largeur à 375 pixels */
+    margin: auto;                                                   /* défini le margin de tous les cotés automatiquement */
+    visibility: visible;                                            /* affiche l'élement */
+    z-index: 1;                                                     /* défini la position dans les couches d'affichage */
+    display: block;                                                 /* affiche mes élements en bloc */
   }
-  .mobile-menu {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 85%;
-    background: rgba(10, 10, 10, 0.5);
-    opacity: 0;
-    z-index: 20;
-    font-size : 18px;
-    box-sizing: border-box;
-    pointer-events: none;
-    transition: opacity 0.5s ease-in-out;
+  .mobile-menu {                                                    /* s'applique aux élements possédant la classe "mobile-menu" */
+    position: absolute;                                             /* retire l'élement du flux normal et aucun espace n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */ 
+    left: 0;                                                        /* place l'élement à 0 pixels à gauche de la page */
+    top: 0;                                                         /* place l'élement à 0 pixels en haut de la page */
+    width: 85%;                                                     /* défini la largeur à 85% */
+    background: rgba(10, 10, 10, 0.5);                            /* défini la couleur de fond */
+    opacity: 0;                                                     /* défini l'opacité à 0 */
+    z-index: 20;                                                    /* défini la position dans les couches d'affichage */
+    font-size : 18px;                                               /* défini la taille de la font */
+    box-sizing: border-box;                                         /* défini la hauteur et la largeur de l'élement par rapport au bloc parent */
+    pointer-events: none;                                           /* retire l'affichage cliquable du doigt sur l'élement */
+    transition: opacity 0.5s ease-in-out;                           /* défini une transition avec opacité sur 0.5 sec */
   }
-  .mobile-menu.open {
-    display: block;
-    opacity: 1;
-    pointer-events: all;
+  .mobile-menu.open {                                               /* s'applique aux élements possédant la classe "mobile-menu.open" */
+    display: block;                                                 /* affiche mes élements en bloc */
+    opacity: 1;                                                     /* défini l'opacité à 1 */
+    pointer-events: all;                                            /* affiche tous les indicateurs d'évenement de clique */
   }
-  .burger-wrap {
-    position: absolute;
-    z-index: 40;
-    transition: 300ms 700ms transform ease-in;
+  .burger-wrap {                                                    /* s'applique aux élements possédant la classe "burger-wrap" */
+    position: absolute;                                             /* retire l'élement du flux normal et aucun e space n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */ 
+    z-index: 40;                                                    /* défini la position dans les couches d'affichage */
+    transition: 300ms 700ms transform ease-in;                      /* défini l'animation de transition lorsqu'on clique */
   }
-  .burger-wrap.reappearBurger {
-    opacity: 0;
-    animation: 0.5s 2s fadeAppear ease-out forwards;
+  .burger-wrap.reappearBurger {                                     /* s'applique aux élements possédant la classe "burger-wrap.reappearBurger" */
+    opacity: 0;                                                     /* défini l'opacité à 0 */
+    animation: 0.5s 2s fadeAppear ease-out forwards;                /* animation lors du clique */
   }
-  @keyframes fadeAppear {
-    0% {
-      opacity: 0;
+  @keyframes fadeAppear {                                           /* animation */
+    0% {                                                            /* début de l'animation */
+      opacity: 0;                                                   /* défini l'opacité à 0 */
     }
-    100% {
-      opacity: 1;
+    100% {                                                          /* fin de l'animation */
+      opacity: 1;                                                   /* défini l'opacité à 1 */
     }
   }
-  .burger {
-    width: 30px;
-    height: 27px;
-    cursor: pointer;
-    z-index: 30;
-    transition: transform 1s ease-in;
+  .burger {                                                          /* s'applique aux élements possédant la classe "burger" */
+    width: 30px;                                                     /* défini la largeur à 30 pixels */
+    height: 27px;                                                    /* défini la hauteur à 27 pixels */
+    cursor: pointer;                                                 /* change le curseur */
+    z-index: 30;                                                     /* défini la position dans les couches d'affichage */
+    transition: transform 1s ease-in;                                /* défini l'animation de transition lorsqu'on clique */
   }
-  .burger span {
-    display: block;
-    position: absolute;
-    height: 2px;
-    left: 0;
-    background: #FF5555;
-    border-radius: 9px;
-    opacity: 1;
-    transform: rotate(0deg);
-    transition: 0.25s ease-in-out;
+  .burger span {                                                     /* s'applique aux élements de type span qui sont enfants d'un élement possédant la classe "burger" */
+    display: block;                                                  /* affiche mes élements en bloc */ 
+    position: absolute;                                              /* retire l'élement du flux normal et aucun e space n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */ 
+    height: 2px;                                                     /* défini la hauteur à 2 pixels */
+    left: 0;                                                         /* positionne l'élement à 0 pixels sur la gauche */
+    background: #FF5555;                                           /* défini la couleur de fond */
+    border-radius: 9px;                                              /* défini une bordure arrondie */
+    opacity: 1;                                                      /* défini l'opacité à 1 */
+    transform: rotate(0deg);                                         /* ajoute un effet de rotation */
+    transition: 0.25s ease-in-out;                                   /* défini la transition de la rotation */
   }
-  .burger span:nth-child(1) {
-    top: 0px;
-    width: 50%;
+  .burger span:nth-child(1) {                                        /* s'applique au premier span de mon burger */
+    top: 0px;                                                        /* place l'élement à 0 pixel du haut */
+    width: 50%;                                                      /* défini la largeur à 50% */
   }
-  .burger span:nth-child(2) {
-    top: 12px;
-    width: 75%;
+  .burger span:nth-child(2) {                                        /* s'applique au deuxième span de mon burger */
+    top: 12px;                                                       /* place l'élement à 12 pixels du haut */
+    width: 75%;                                                      /* défini la largeur à 75% */
   }
-  .burger span:nth-child(3) {
-    top: 24px;
-    width: 100%;
+  .burger span:nth-child(3) {                                        /* s'applique au troisième span de mon burger */
+    top: 24px;                                                       /* place l'élement à 24 pixels du haut */
+    width: 100%;                                                     /* défini la largeur à 100% */
   }
-  .burger.active span:nth-child(1) {
-    width: 100%;
-    top: 12px;
-    transform: rotate(135deg);
+  .burger.active span:nth-child(1) {                                 /* s'applique au premier span de mon burger lorsqu'il est cliqué */
+    width: 100%;                                                     /* défini la largeur à 100% */
+    top: 12px;                                                       /* place l'élement à 12 pixels du haut */
+    transform: rotate(135deg);                                       /* défini la rotation */
   }
-  .burger.active span:nth-child(2) {
-    opacity: 0;
+  .burger.active span:nth-child(2) {                                 /* s'applique au deuxième span de mon burger lorsqu'il est cliqué */
+    opacity: 0;                                                      /* défini l'opacité à 0 */
   }
-  .burger.active span:nth-child(3) {
-    top: 12px;
-    transform: rotate(-135deg);
+  .burger.active span:nth-child(3) {                                 /* s'applique au troisième span de mon burger lorsqu'il est cliqué */ 
+    top: 12px;                                                       /* place l'élement à 12 pixels du haut */
+    transform: rotate(-135deg);                                      /* défini la rotation */
   }
-  li {
-    margin-bottom: 15px;
+  li {                                                               /* s'applique aux li */
+    margin-bottom: 15px;                                             /* défini un margin en bas de 15 pixels */
   }
-  .container{
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+  .container{                                                        /* s'applique aux élements possédant la classe "container" */
+    max-width: 75%;                                                  /* défini la largeur maximum à 75% */
+    margin-left: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+    margin-right: auto;                                              /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+    padding-top: 10px;                                               /* défini un padding en haut de 10 pixels */
   }
-  #calories{
-    width: 100%;
-    max-width: 790px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0;
-    margin-top: 0;
+  #calories{                                                         /* s'applique à l'élement possédant l'id "calories" */
+    width: 100%;                                                     /* défini la largeur à 100% */
+    max-width: 790px;                                                /* défini la largeur maximum à 790 pixels */
+    height: auto;                                                    /* défini la hauteur automatiquement */
+    margin-left: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+    margin-right: auto;                                              /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
+    padding-top: 0;                                                  /* défini le padding du haut à 0 */
+    margin-top: 0;                                                   /* défini le margin du haut à 0 */
   }
-  footer{
-    max-width: 100%;
-    font-size: 8px;
-    display: flex;
-    justify-content: space-evenly;
+  footer{                                                            /* s'applique au footer */
+    max-width: 100%;                                                 /* défini la largeur maximum à 100% */
+    font-size: 8px;                                                  /* défini la taille de la font */
+    display: flex;                                                   /* affiche mes élements sous forme de boites flexibles */
+    justify-content: space-evenly;                                   /* espace les élements équitablement */
   }
-  h3{
-    font-size: 8px;
-    padding-left: 0px;
+  h3{                                                                /* s'applique aux h3 */
+    font-size: 8px;                                                  /* défini la taille de la font */
+    padding-left: 0px;                                               /* défini le padding de gauche à 0 */
   }
-  .CG{
-    padding-left: 0;
-    line-height: 5%;
+  .CG{                                                               /* s'applique aux élements possédant la classe "CG" */
+    padding-left: 0;                                                 /* défini le padding de gauche à 0 */
+    line-height: 5%;                                                 /* défini la hauteur de ligne à 5% */
   }
-  a{
-    font-size: 7px;
-    color: #FF5555;
+  a{                                                                 /* s'applique aux ancres */
+    font-size: 7px;                                                  /* défini la taille de la font */
+    color: #FF5555;                                                /* défini la couleur de la font */
   }
-  #Copyright{
-    font-size: 8px;
+  #Copyright{                                                        /* s'applique à l'élement possédant l'id "Copyright" */
+    font-size: 8px;                                                  /* défini la taille de la font */
   }
-  #Shakerfooter{
-    width: 75px;
+  #Shakerfooter{                                                     /* s'applique à l'élement possédant la classe "Shakerfooter" */
+    width: 75px;                                                     /* défini la largeur à 75 pixels */
   }
-  .Lcontact{
-    background-image: none;
-
+  .Lcontact{                                                         /* s'applique aux élements possédant la classe "Lcontact" */
+    background-image: none;                                          /* retire l'image de fond */
   }
 }
