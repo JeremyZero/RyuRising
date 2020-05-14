@@ -19,5 +19,12 @@ class panier{
  public function add($product_id){
     $_SESSION['panier'][$product_id] =1;
  }
+
+//  cette fonction me sert a supprimé les elements de mon panier par l'icone corbeille
+ 
+public function del ($product_id)
+ {
+    unset ($_SESSION['panier'][$product_id]);
+ }
      
 }

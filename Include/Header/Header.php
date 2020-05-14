@@ -23,7 +23,7 @@
   <nav id="Barnav">
     <ul id="Nav">
         <li><a class="AllNav" href="../Index/Produits.php">PRODUITS</a></li>
-        <li><a class="AllNav" href="#">SERVICES</a></li>
+        <li><a class="AllNav" href="../Bassededonne/Panier.php">PANIER</a></li>
         <li><a class="AllNav" href="../Index/Contact.php">CONTACT</a></li>
         <li><a class="AllNav" href="../Index/Quisommesnous.php">QUI SOMMES NOUS ?</a></li>
     </ul>

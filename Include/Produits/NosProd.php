@@ -14,7 +14,7 @@
         <p><?php echo  $product->name; ?><a href="#"></a>
 
 <!-- La fonction number_format me sert a mettre les chiffre après la virgule -->
-        <a href="#"><?php echo number_format( $product->price,2,',',''); ?></a>
+        <a href="#"><?php echo number_format( $product->price,2,',',''); ?>€</a>
 
 <!-- Vue que mon site et connecter avec ma base de donneés que je peu changer le prix directement en basse de données et il sera changer aussi sur le site  -->
         <a href="../Bassededonne/addpanier.php?id=<?php echo $product->id?>"><img class="Mini"src="../images/iconscliquer.png" alt=""></a></p>

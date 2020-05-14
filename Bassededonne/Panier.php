@@ -15,6 +15,6 @@
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
 
-<script src="../Script/script.js"></script>
+
 </body>
 </html>
