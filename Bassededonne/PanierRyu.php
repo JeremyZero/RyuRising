@@ -60,6 +60,6 @@ toujour en relation avec la page Panier.class.php -->
 
 <div id='arigato'>
         <p>
-       TOTAL:<?php echo number_format($panier->total(),2,',',''); ?>
+       TOTAL:<?php echo number_format($panier->total(),2,',',''); ?>€
        </p>
 </div>
