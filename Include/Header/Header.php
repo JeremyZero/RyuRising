@@ -14,7 +14,7 @@
     </li>
     <li class="Total">
       TOTAL<br>
-      <span><?php echo number_format($panier->total(),2,',',''); ?></span>
+      <span><?php echo number_format($panier->total(),2,',',''); ?>€</span>
     </li>
   </ul>
     </div>  
