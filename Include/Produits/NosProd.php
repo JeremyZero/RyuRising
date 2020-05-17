@@ -10,7 +10,7 @@
      donc L'ID Aura l'image 1 ansi desuite . -->
      <div class="contienlo">
     <img id="Tori"src="../images/Idpots/<?php echo $product->id; ?>.png">
-        <p><?php echo  $product->name; ?><a href="#"></a>
+        <p>
 
 <!-- La fonction number_format me sert a mettre les chiffre après la virgule -->
         <a href="#"><?php echo number_format( $product->price,2,',',''); ?>€</a><br>
