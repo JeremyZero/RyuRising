@@ -1,4 +1,4 @@
-<h1>Résumer Panier</h1>
+<h1>Résumé du Panier</h1>
     <div class="wrap">
         <table>
             <tr>
