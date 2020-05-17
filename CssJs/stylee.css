@@ -241,7 +241,6 @@ right: 16px;                                                        /* place l'�
   min-width: 80px; 
 }
 .contienlo{                                                         /* s'applique aux élements possédant la classe "contienlo" */
-  width: 80%;                                                       /* défini la largeur à 20% */
   text-align: center;
 }
 .Mini{
