@@ -22,7 +22,7 @@ class DB{
     PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     // EERMODE ME SERT DE VISU POUR DIRE OU ET MON ERREURE ET SUR QUEL LIGNE
     }catch(PDOException $e){
-        die('<h1>Impossible de se connecter a la base de donnee</h1>');
+        die('<h1>Impossible de se connecter à la base de données</h1>');
     }
 
     }

@@ -22,7 +22,7 @@
 
   <nav id="Barnav">
     <ul id="Nav">
-        <li><a class="AllNav" href="../Index/DescriptionProduits.php">DESCRIPTION PRODUITS</a></li>
+        <li><a class="AllNav" href="../Index/DescriptionProduits.php">NOS PRODUITS</a></li>
         <li><a class="AllNav" href="../Index/Produits.php">ACHAT</a></li>
         <li><a class="AllNav" href="../Index/Contact.php">CONTACT</a></li>
         <li><a class="AllNav" href="../Index/Quisommesnous.php">QUI SOMMES NOUS ?</a></li>
@@ -39,10 +39,10 @@
       <div class="mobile-menu">
         <nav>
           <ul id="Nav">
-            <li><a class="AllNav" href="#">PRODUITS</a></li>
-            <li><a class="AllNav" href="#">SERVICES</a></li>
-            <li><a class="AllNav" href="#">CONTACT</a></li>
-            <li><a class="AllNav" href="#">QUI SOMMES NOUS ?</a></li>
+          <li><a class="AllNav" href="../Index/DescriptionProduits.php">NOS PRODUITS</a></li>
+        <li><a class="AllNav" href="../Index/Produits.php">ACHAT</a></li>
+        <li><a class="AllNav" href="../Index/Contact.php">CONTACT</a></li>
+        <li><a class="AllNav" href="../Index/Quisommesnous.php">QUI SOMMES NOUS ?</a></li>
           </ul>
         </nav>
       </div>
