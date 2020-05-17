@@ -285,6 +285,16 @@ th, tr {
   width: 50px ;
 }
 
+#arigato{
+display: flex;
+justify-content: flex-end;
+}
+
+.Mespots{
+display: flex;
+
+}
+
 
 
 @media screen and (max-width: 700px) {                              /* media queries pour les écrans allant jusqu'à 700pixels */

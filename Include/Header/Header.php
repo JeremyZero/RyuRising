@@ -6,15 +6,15 @@
     <a href="../Index/Accueil.php"><img id="logo" src="../images/tryheader3.png" alt=""></a>
 
     <div class="Panier">
-    <a href="#"><img id="Pan" src="../images/caddie.png" alt=""></a>
+    <a href="../Bassededonne/Panier.php"><img id="Pan" src="../images/caddie.png" alt=""></a>
     <ul id="Monnaie">
       <li class="items">
         ITEMS <br>
-      <span>13</span>
+      <span><?php echo $panier->count();?></span>
     </li>
     <li class="Total">
-      TOTAL <br>
-      <span>1000</span>
+      TOTAL<br>
+      <span><?php echo number_format($panier->total(),2,',',''); ?></span>
     </li>
   </ul>
     </div>  
@@ -22,8 +22,8 @@
 
   <nav id="Barnav">
     <ul id="Nav">
-        <li><a class="AllNav" href="../Index/Produits.php">PRODUITS</a></li>
-        <li><a class="AllNav" href="../Bassededonne/Panier.php">PANIER</a></li>
+        <li><a class="AllNav" href="../Index/DescriptionProduits.php">DESCRIPTION PRODUITS</a></li>
+        <li><a class="AllNav" href="../Index/Produits.php">ACHAT</a></li>
         <li><a class="AllNav" href="../Index/Contact.php">CONTACT</a></li>
         <li><a class="AllNav" href="../Index/Quisommesnous.php">QUI SOMMES NOUS ?</a></li>
     </ul>
