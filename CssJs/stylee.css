@@ -237,11 +237,12 @@ right: 16px;                                                        /* place l'�
   padding-left: 10px;                                               /* défini un padding sur la gauche de 10 pixels */
 }
 #Tori{                                                              /* s'applique à l'élement possédant l'id "Tori" */
-  width: 100%;                                                       /* défini une largeur de 30% */
+  width: 50%;                                                       /* défini une largeur de 30% */
   min-width: 80px; 
 }
 .contienlo{                                                         /* s'applique aux élements possédant la classe "contienlo" */
   text-align: center;
+  width: 33%;
 }
 .Mini{
   width: 30px;
@@ -289,11 +290,13 @@ justify-content: flex-end;
 }
 
 .Mespots{
+  width: 80%;
   margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
   margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
   padding: 2em;                                                 /* défini un padding en haut de 2em */
   display: flex;                                                    /* affiche mes élements sous forme de boites flexibles */
-  justify-content: center;                                          /* centre mes élements à partir du centre */ 
+  justify-content: space-around;                                          /* centre mes élements à partir du centre */ 
+  flex-wrap: wrap;
 }
 
 
