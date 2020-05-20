@@ -209,7 +209,7 @@ a:hover{                                                            /* s'appliqu
   background-image: url(../images/backgro.png);                     /* chemin vers l'image de fond */
   background-color:rgb(23,40,61);                                 /* défini la couleur du fond */
 }
-#Conta{                                                             /* s'applique à l'élement possédant l'id "Conta" */
+.Conta{                                                             /* s'applique à l'élement possédant l'id "Conta" */
   background-color:white;                                         /* défini la couleur du fond */
   border-radius: 1em ;                                              /* défini une bordure arrondie de 1em */
   max-width: 400px;                                                 /* défini la largeur maximum à 400 pixels */
@@ -289,6 +289,8 @@ display: flex;
 justify-content: flex-end;
 }
 
+
+
 .Mespots{
   width: 80%;
   margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
@@ -298,6 +300,44 @@ justify-content: flex-end;
   justify-content: space-around;                                          /* centre mes élements à partir du centre */ 
   flex-wrap: wrap;
 }
+
+.poto{                                                          /* s'applique aux élements possédant la classe "Lcontact" */
+    height: 770px;                                                    /* défini la hauteur à 770 pixels */
+    background-size: 60%;                                             /* défini la taille du fond à 60% */
+    background-repeat: no-repeat;                                     /* évite que le fond ne soit multiplié pour remplir entierement la page */
+    background-color:rgb(23,40,61);                                 /* défini la couleur du fond */
+}
+
+#Evangelion{
+  background-image: url(../images/backgro1.png);                     /* chemin vers l'image de fond */
+}
+
+#Grimmjoy
+{
+  background-image: url(../images/backgro2.png);                     /* chemin vers l'image de fond */
+}
+
+
+.Ryup{
+  width: 30%;
+  min-width: 80px;
+  max-width: 473px;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.nbpages
+{
+width: 100%;
+height: 20px;
+background-color:rgb(23,40,61); 
+text-align: center;
+}
+
+.pages{
+  color: #FF5555;
+}
+
 
 
 

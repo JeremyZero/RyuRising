@@ -1,5 +1,5 @@
 <div class="Lcontact" >
-<div id='Conta'>
+<div class='Conta'>
     <h4>Contact:</h4>
     <p>Mail: Infos@ryurising.com</p>
     <p>Tel: 04.93.13.74.51</p>
