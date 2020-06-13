@@ -16,7 +16,7 @@
         <a href="#"><?php echo number_format( $product->price,2,',',''); ?>€</a><br>
 
 <!-- Vue que mon site et connecter avec ma base de donneés que je peu changer le prix directement en basse de données et il sera changer aussi sur le site  -->
-        <a href="../Bassededonne/addpanier.php?id=<?php echo $product->id?>"><img  class="Mini" src="../images/iconsprix.png" alt="">ADD</a></p>
+        <a href="../Bassededonne/addpanier.php?id=<?php echo $product->id?>"><img  class="Mini addPanier" src="../images/iconsprix.png" alt=""></a>ADD</p>
     </div>
 
 <?php endforeach ?>

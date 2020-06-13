@@ -11,5 +11,7 @@
 <?php include ('../Include/Header/Header.php') ?>
 <?php include ('../Include/EchangeRetour/EC.php') ?>
 <?php include ('../Include/Footer/Footer.php') ?>
+
+<script src="../Script/Burger.js"></script>
 </body>
 </html>

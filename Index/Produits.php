@@ -12,6 +12,10 @@
 <?php include_once ('../Include/Produits/NosProd.php') ?>
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
-<script src="../Script/script.js"></script>
+
+<script src="../Script/Burger.js"></script>
+<script src="../Script/app.js"></script>
+
+
 </body>
 </html>

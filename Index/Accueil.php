@@ -15,6 +15,7 @@
 <?php include_once ('../Include/PresentSlider/PresantSlider.php') ?>
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
+<script src="../Script/Burger.js"></script>
 <script src="../Script/script.js"></script>
 </body>
 </html>

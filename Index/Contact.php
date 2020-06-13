@@ -13,6 +13,6 @@
 <?php include_once ('../Include/Contact/Contactu.php') ?>
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
-<script src="../Script/script.js"></script>
+<script src="../Script/Burger.js"></script>
 </body>
 </html>

@@ -12,6 +12,8 @@
 <?php include_once ('../Include/PC/PCInclude.php') ?>
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
+<script src="../Script/Burger.js"></script>
+
 </body>
 </html>
 
