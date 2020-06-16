@@ -295,6 +295,10 @@ th, tr {
   width: 125px ;
 }
 
+#quantity{
+  width: 40px;
+}
+
 .dels{
   height: 50px;
   width: 50px ;
@@ -535,5 +539,6 @@ a{                                                                  /* s'appliqu
   .imgg{
     width:62px;
   }
+
 
 }
