@@ -18,7 +18,22 @@ class panier{
            if(isset($_GET['delPanier'])){
                $this->del($_GET['delPanier']);
            }
+           if (isset($_POST['panier']['quantity']))
+           {
+$this->recalc();
+           }
     }
+
+    public function recalc(){
+        foreach($_SESSION['panier'] as $product_id => $quantity){
+            if (isset($_POST['panier']['quantity'][$product_id])) {
+            $_SESSION['panier'][$product_id] = $_POST['panier']['quantity'][$product_id]; 
+            }
+        }
+      
+    }
+
+
 
 
 

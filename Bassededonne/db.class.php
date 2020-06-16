@@ -21,6 +21,7 @@ class DB{
         $this->db = new PDO('mysql:host='.$this->host.';dbname='.$this->database , $this->username, $this->password, array(PDO::MYSQL_ATTR_INIT_COMMAND =>'SET NAMES UTF8',
     PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     // EERMODE ME SERT DE VISU POUR DIRE OU ET MON ERREURE ET SUR QUEL LIGNE
+    // ET MAFFICHICHERA AUSSI SI JE SUIS BIEN CONNECTER A MA BASSE DE DONNEE
     }catch(PDOException $e){
         die('<h1>Impossible de se connecter à la base de données</h1>');
     }

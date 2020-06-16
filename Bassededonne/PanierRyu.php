@@ -1,4 +1,5 @@
 <h1>Résumé du Panier</h1>
+<form method='post' action="panier.php">
     <div class="wrap">
         <table>
             <tr>
@@ -41,7 +42,7 @@ foreach($products as $product):
 <th>
 <!-- Me permet d'ajouter plus de quantité 
 toujour en relation avec la page Panier.class.php -->
-<?php echo $_SESSION['panier'][$product->id]?>
+<input type='text' name='panier[quantity][<?php echo $product->id; ?>]' value="<?php echo $_SESSION['panier'][$product->id]?>">
 </th>
 
 <th>
@@ -57,9 +58,11 @@ toujour en relation avec la page Panier.class.php -->
        </table>
      
     </div>
+    <input type="submit" value="Recalculer">
 
 <div id='arigato'>
         <p>
        TOTAL:<?php echo number_format($panier->total(),2,',',''); ?>€
        </p>
+       </form>
 </div>
