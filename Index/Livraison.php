@@ -13,6 +13,6 @@
 <?php include ('../Include/Livraison/ConditionLivraison.php') ?>
 <?php include ('../Include/Footer/Footer.php') ?>
 
-<script src="../Script/Burger.js"></script>
+
 </body>
 </html>

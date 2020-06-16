@@ -13,7 +13,7 @@
 <?php include_once ('../Include/Footer/Footer.php') ?>
 
 
-<script src="../Script/Burger.js"></script>
+
 <script src="../Script/app.js"></script>
 
 
