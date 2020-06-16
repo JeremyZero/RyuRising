@@ -10,6 +10,7 @@ body{                                                               /* s'appliqu
   background-color: white;                                        /* défini la couleur de fond */
   color: #FF5555;                                                 /* défini la couleur de la font */
   max-width: 90%;                                                   /* défini la largeur maximum de mon body a 90% de son parent */
+  margin: 0;
   margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
   margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon body centré avec la même distance entre le bord de la page et le bord du du body */
   padding: 0;                                                       /* défini un padding à 0 sur tous les côtés */
@@ -227,8 +228,8 @@ display: flex;                                                      /* affiche m
 .Panier{                                                            /* s'applique aux élements possédant la classe "Panier" */
 display: flex;                                                      /* affiche mes élements sous forme de boites flexibles */
 position: absolute;                                                 /* retire l'élement du flux normal et aucun espace n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */
-top: 8px;                                                           /* place l'élement à 8 pixels du haut de la page */
-right: 16px;                                                        /* place l'élement à 16 pixels de la droite de la page */
+top: 8px;                                                          /* place l'élement à 8 pixels du haut de la page */
+right: 80px;                                                        /* place l'élement à 16 pixels de la droite de la page */
 }
 #Monnaie{                                                           /* s'applique à l'élement possédant l'id "Monnaie" */
   display: flex;                                                    /* affiche mes élements sous forme de boites flexibles */
@@ -252,6 +253,9 @@ h1{
 text-align: center;
 margin: 0;
 }
+#tampon{
+  text-align: center;
+}
 
 
 .wrap{
@@ -260,7 +264,7 @@ margin: 0;
 }
 
 table{
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
 }
 

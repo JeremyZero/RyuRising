@@ -12,6 +12,7 @@
 
 </div>
 
+
 <div class="nbpages">
    <a class='pages' href="">1</a>
    <a class='pages'  href="../Include/Nosproduits/Grimmjoy.php">2</a>
