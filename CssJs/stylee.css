@@ -397,14 +397,15 @@ a{                                                                  /* s'appliqu
   }
   .mobile-menu {                                                    /* s'applique aux élements possédant la classe "mobile-menu" */
     position: absolute;                                             /* retire l'élement du flux normal et aucun espace n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */ 
-    right: 0;                                                        /* place l'élement à 0 pixels à gauche de la page */
+                                                            /* place l'élement à 0 pixels à gauche de la page */
     top: 0;                                                         /* place l'élement à 0 pixels en haut de la page */
-    width: 85%;                                                     /* défini la largeur à 85% */
-    background: rgba(10, 10, 10, 0.5);                            /* défini la couleur de fond */
+    width: 87%;                                                     /* défini la largeur à 85% */
+    background: rgb(23,40,61);                            /* défini la couleur de fond */
     opacity: 0;                                                     /* défini l'opacité à 0 */
     z-index: 20;                                                    /* défini la position dans les couches d'affichage */
     font-size : 18px;                                               /* défini la taille de la font */
     box-sizing: border-box;                                         /* défini la hauteur et la largeur de l'élement par rapport au bloc parent */
+    border: 2px solid #FF5555;
     pointer-events: none;                                           /* retire l'affichage cliquable du doigt sur l'élement */
     transition: opacity 0.5s ease-in-out;                           /* défini une transition avec opacité sur 0.5 sec */
   }
