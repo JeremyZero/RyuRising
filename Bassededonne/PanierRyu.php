@@ -42,7 +42,7 @@ foreach($products as $product):
 <th>
 <!-- Me permet d'ajouter plus de quantité 
 toujour en relation avec la page Panier.class.php -->
-<input type='text' name='panier[quantity][<?php echo $product->id; ?>]' value="<?php echo $_SESSION['panier'][$product->id]?>">
+<input type='number' name='panier[quantity][<?php echo $product->id; ?>]' value="<?php echo $_SESSION['panier'][$product->id]?>" min="1" max="10">
 </th>
 
 <th>
@@ -58,11 +58,12 @@ toujour en relation avec la page Panier.class.php -->
        </table>
      
     </div>
-    <input type="submit" value="Recalculer">
 
 <div id='arigato'>
         <p>
        TOTAL:<?php echo number_format($panier->total(),2,',',''); ?>€
        </p>
        </form>
+       <input class="recalcul ml-auto" type="submit" value="Recalculer" ml-auto>
+
 </div>

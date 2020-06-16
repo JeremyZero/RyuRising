@@ -45,6 +45,20 @@ header{                                                             /* s'appliqu
   margin-right: auto;                                               /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
   margin-bottom: 0;                                                 /* défini un margin en bas de l'élement à 0 */
 }
+.recalcul{
+  background-color: #FF5555;                                      /* défini la couleur de fond */
+  color:  rgb(23,40,61);
+  border: 2px solid rgb(23,40,61);
+  font-family: 'Oxanium', 'Spartan', 'Oswald';                      /* je choisi 3 font différentes au cas où le navigateur ne reconnaisse pas la première etc */
+  font-size: 20px;
+  float: right;
+  margin-left: 20px;
+}
+.recalcul:hover{
+  color: #FF5555;
+  background-color:  rgb(23,40,61);
+  border: 2px solid #FF5555;
+}
 li{                                                                 /* s'applique à tous les li */
   list-style-type: none;                                            /* retire les puces des listes */
   text-decoration: none;                                            /* retire les décorations des ancres */
