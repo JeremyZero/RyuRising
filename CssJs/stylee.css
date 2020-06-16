@@ -292,8 +292,6 @@ th, tr {
 }
 
 .imgg {
-
-  height: 100px;
   width: 125px ;
 }
 
@@ -399,7 +397,7 @@ a{                                                                  /* s'appliqu
   }
   .mobile-menu {                                                    /* s'applique aux élements possédant la classe "mobile-menu" */
     position: absolute;                                             /* retire l'élement du flux normal et aucun espace n'est crée pour l'élement sur la page car il est positionné par rapport a son ancêtre le plus proche */ 
-    left: 0;                                                        /* place l'élement à 0 pixels à gauche de la page */
+    right: 0;                                                        /* place l'élement à 0 pixels à gauche de la page */
     top: 0;                                                         /* place l'élement à 0 pixels en haut de la page */
     width: 85%;                                                     /* défini la largeur à 85% */
     background: rgba(10, 10, 10, 0.5);                            /* défini la couleur de fond */
@@ -519,4 +517,22 @@ a{                                                                  /* s'appliqu
   .Lcontact{                                                         /* s'applique aux élements possédant la classe "Lcontact" */
     background-image: none;                                          /* retire l'image de fond */
   }
+  .Panier{
+    top: 5px;
+  }
+  #Pan{
+    width: 45px;
+  }
+  #Monnaie{
+    width: 100%;
+    padding-bottom: 25px;
+    font-size: 12px;
+  }
+  .wrap{
+    font-size: 3vw;
+  }
+  .imgg{
+    width:62px;
+  }
+
 }
