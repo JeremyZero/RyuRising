@@ -1,5 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Oxanium|Spartan&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CssJs/stylee.css">
+    </head>
+<body>
+<?php include_once ('../Include/Header/Header.php') ?>
 <?php 
-require '../Bassededonne/_Hearder.php';
 // La je verifie que L'id a bien etait envoyer 
 if(isset($_GET['id']))
 {  
@@ -15,10 +25,12 @@ if(isset($_GET['id']))
 
 //  ce petit de code me permet d'ajouter un produits qui et en raport avec ma function dans la page Panier.class.php
 $panier->add($product[0]->id);
-die('Le produit a bien été ajouté à votre panier, cliquez pour <a href="/RyuRising/Index/Produits.php#">retourner sur le catalogue</a>');
+die('<h1>Le produit a bien été ajouté à votre panier</h1>, <h3 id="tampon">cliquez pour <a href="/RyuRising/Index/Produits.php#">retourner sur le catalogue</h3></a>');
 
 }else{ 
     die("Vous n'avez pas sélectionné de produit à ajouter au panier");
 }
 // var_dump($_GET);
 ?>
+</body>
+</html>
