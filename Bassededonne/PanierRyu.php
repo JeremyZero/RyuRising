@@ -42,7 +42,7 @@ foreach($products as $product):
 <th>
 <!-- Me permet d'ajouter plus de quantité 
 toujour en relation avec la page Panier.class.php -->
-<input type='number' name='panier[quantity][<?php echo $product->id; ?>]' value="<?php echo $_SESSION['panier'][$product->id]?>" min="1" max="10">
+<input id="quantity" type='number' name='panier[quantity][<?php echo $product->id; ?>]' value="<?php echo $_SESSION['panier'][$product->id]?>" min="1" max="10">
 </th>
 
 <th>
