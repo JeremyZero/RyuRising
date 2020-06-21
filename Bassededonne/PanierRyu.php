@@ -67,3 +67,5 @@ toujour en relation avec la page Panier.class.php -->
        <input class="recalcul ml-auto" type="submit" value="Recalculer" ml-auto>
 
 </div>
+
+

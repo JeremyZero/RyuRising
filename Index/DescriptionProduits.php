@@ -12,7 +12,7 @@
 <?php include_once ('../Include/Nosproduits/Evangelion.php') ?>
 <?php include_once ('../Include/Footer/Footer.php') ?> 
 
-<script src="../Script/Burger.js"></script>
+
 </body>
 </html>
 
