@@ -15,7 +15,7 @@ du coup ça semblait logique pour nous de créer une boisson qui allie nos passi
 <h4>La boisson énergisante conçue par des Gamers, pour les Gamers.</h4>
 <p>Tu as testé tous les sodas et canettes énergisantes possibles? Alors tu as sûrement constaté les mêmes choses que nous: goût chimique, prix élevé, chute du pique d’énergie, effet court terme, ou même aucun effet du tout.</p>
 <p>C’est ce qui nous a poussé à imaginer une alternative, et cette fois d’un autre level.</p>
-<p>Comment ça marche? C’est très simple, de l'eau, une dosette de Rez, un coup de shaker et c’est parti pour 4 heures d’énergie!</p>
+<p>Comment ça marche? C’est très simple, de l'eau, une dosette de Ryu Rising, un coup de shaker et c’est parti pour 4 heures d’énergie!</p>
 <p>Rafraîchis-toi sainement, sans sucre, sans excès de calories, sans rechute d'énergie contrairement au café et ça pour presque 3 fois moins cher qu'une canette d'énergisant classique. Ryu Rising c’est 100% français et combiné de façon unique avec les meilleurs arômes naturels.</p>
 </div>
 <div id="imgQSN">
