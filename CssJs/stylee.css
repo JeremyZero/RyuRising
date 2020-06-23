@@ -174,9 +174,7 @@ footer{                                                             /* s'appliqu
 .CG{                                                                /* s'applique aux élements possédant la classe "CG" */
   padding-left: 0;                                                  /* défini un padding à gauche à 0 */
 }
-h3{                                                                 /* s'applique à mes h3 */
-  text-decoration: underline;                                       /* sous ligne mes élements */
-}
+
 a:hover{                                                            /* s'applique lorsque l'utilisateur place son curseur sur une ancre */
   color: #FF5555;                                                 /* défini la couleur de la font */
 }
