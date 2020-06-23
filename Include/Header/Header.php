@@ -1,4 +1,5 @@
  <?php 
+//  J'inclue la connection a ma base de données.
  require '../Bassededonne/_Hearder.php';
 ?>
 
@@ -49,3 +50,4 @@
     </div>
   </div>
   <script src="../Script/Burger.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

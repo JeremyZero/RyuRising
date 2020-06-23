@@ -7,3 +7,4 @@ burger.addEventListener('click', function () {               // j'ajoute un éco
   burger.classList.toggle('active');                         // lors du clique il activera ou désactivera la class active de mon élément //
   mobileMenu.classList.toggle('open');                       // lors du clique il activera ou désactivera la class open de mon élément //
 });
+

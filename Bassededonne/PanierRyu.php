@@ -1,3 +1,7 @@
+<!-- Mon vardump pour voir le fetch all -->
+ <?php /*var_dump($DB->query('SELECT * FROM products'));*/?>
+
+
 <h1>Résumé du Panier</h1>
 <form method='post' action="panier.php">
     <div class="wrap">
@@ -18,9 +22,11 @@ if(empty($ids)){
     $products = array ();
 }else
 {
-    // ma requete SQL qui me permet de recupérer mes produits 
+    // ma requete SQL qui me permet de recupérer mes différents produits 
 $products = $DB->query('SELECT * FROM products WHERE id IN ('.implode(',',$ids).')'); 
 }
+// je parcours ma requete plusieur fois avec mon foreach
+// je récupere mes produits individuellement en l'appelant product.
 foreach($products as $product):
 ?>
  <tr>
@@ -30,12 +36,13 @@ foreach($products as $product):
     </th>
     
 
-    
 <th>
+<!-- recupere le nom de mes produit ($product) -->
 <?php echo  $product->name; ?></a>
 </th>
 
 <th>
+<!-- avec le number_format j'affiche mon prix avec 2 chiffres apres la virgule -->
 <?php echo number_format( $product->price,2,',',''); ?>€
 </th>
 

@@ -13,8 +13,8 @@
 // La je verifie que L'id a bien etait envoyer 
 if(isset($_GET['id']))
 {  
-//   J'utilise ma requete préparer 
-// Avec le $product je recupére mon resulta , mon produit.
+//   J'utilise ma requete préparer je selection query  
+// Avec le $product je recupére mon resultat , mon produit.
 // Mon code PDO et securisé si quelqu'un essaye de changer l'id de mon tableau celui-ci sera VIDE il n'y aura rien 
   $product = $DB->query('SELECT id FROM products WHERE id=:id', array('id' =>$_GET['id']));
 

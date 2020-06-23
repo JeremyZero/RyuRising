@@ -153,6 +153,7 @@ li{                                                                 /* s'appliqu
   width: 30%;                                                       /* défini une largeur de 30% */
   min-width: 80px;                                                  /* défini une largeur minimum de 80 pixels */
 }
+
 .footercat{                                                         /* s'applique aux élements possédant la classe "footercat" */
   color: rgb(23,40,61);                                           /* défini la couleur de la font */
   margin-left: auto;                                                /* margin-left et margin-right sont utilisés dans ce cas précis pour avoir mon élement centré avec la même distance entre les bords */
