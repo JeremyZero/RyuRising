@@ -89,6 +89,7 @@ li{                                                                 /* s'appliqu
 }
 .imgslide{                                                          /* s'applique sur les élements possédant la classe "imgslide" */
   vertical-align: middle;                                           /* aligne le milieu de l'élément avec la hauteur donnée par la ligne de base de l'élément parent à laquelle on ajoute la moitié de sa hauteur */
+  width: 100%;
 }
 .slideshow-container {                                              /* s'applique sur mes élements de classe "slideshow-container" */
   max-width: 1500px;                                                /* défini la largeur maximum à 1500 pixels */
