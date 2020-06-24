@@ -4,18 +4,20 @@
 ?>
 
  <header>
-    <a href="../Index/Accueil.php"><img id="logo" src="../images/tryheader3.png" alt=""></a>
+    <a href="../Index/Accueil.php"><img id="logo" src="../images/tryheader3.png" alt="Logo-RyuRising"></a>
 
     <div class="Panier">
-    <a href="../Bassededonne/Panier.php"><img id="Pan" src="../images/caddie.png" alt=""></a>
+    <a href="../Bassededonne/Panier.php"><img id="Pan" src="../images/caddie.png" alt="Image-Panier"></a>
     <ul id="Monnaie">
       <li class="items">
         ARTICLE <br>
-      <span><?php echo $panier->count();?></span>
+        <!--  Ma fonction me permet de faire le total de mes items je fais simplement la somme de mes produits -->
+        <span><?php echo $panier->count();?></span>
     </li>
     <li class="Total">
       TOTAL<br>
-      <span><?php echo number_format($panier->total(),2,',',''); ?>€</span>
+        <!-- avec le number_format j'affiche mon prix avec 2 chiffres apres la virgule -->
+        <span><?php echo number_format($panier->total(),2,',',''); ?>€</span>
     </li>
   </ul>
     </div>  
