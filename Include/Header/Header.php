@@ -10,7 +10,7 @@
     <a href="../Bassededonne/Panier.php"><img id="Pan" src="../images/caddie.png" alt=""></a>
     <ul id="Monnaie">
       <li class="items">
-        ITEMS <br>
+        ARTICLE <br>
       <span><?php echo $panier->count();?></span>
     </li>
     <li class="Total">
@@ -40,8 +40,8 @@
       <div class="mobile-menu">
         <nav>
           <ul id="Nav">
-          <li><a class="AllNav" href="../Index/DescriptionProduits.php">NOS PRODUITS</a></li>
-        <li><a class="AllNav" href="../Index/Produits.php">ACHAT</a></li>
+          <li><a class="AllNav" href="../Index/DescriptionProduits.php">RYU RISING</a></li>
+        <li><a class="AllNav" href="../Index/Produits.php">NOS PRODUITS</a></li>
         <li><a class="AllNav" href="../Index/Contact.php">CONTACT</a></li>
         <li><a class="AllNav" href="../Index/Quisommesnous.php">QUI SOMMES NOUS ?</a></li>
           </ul>

@@ -1,6 +1,6 @@
 <?php
 class DB{
-    // ma connextion a ma basse de donneés 
+    // ma connexion a ma basse de donneés 
     // variable de configuration pour la connextion a ma base de données je la met en private car je n'aurais pas besoin dit acceder de l'extérieur.
     private $host ='localhost';
     private $username = 'root';
