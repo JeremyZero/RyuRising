@@ -1,6 +1,6 @@
  <?php 
 //  J'inclue la connection a ma base de données.
- require '../Bassededonne/_Hearder.php';
+ require '../Bassededonne/_Header.php';
 ?>
 
  <header>
