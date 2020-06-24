@@ -23,7 +23,7 @@ if(isset($_GET['id']))
  die("Ce produit n'existe pas"); 
  }
 
-//  ce petit de code me permet d'ajouter un produits qui et en raport avec ma function dans la page Panier.class.php
+//  ce petit de code me permet d'ajouter un produits a mon panier .
 $panier->add($product[0]->id);
 die('<h1>Le produit a bien été ajouté à votre panier</h1>, <h3 id="tampon">cliquez ici pour <a href="/RyuRising/Index/Produits.php#">retourner sur le catalogue</a><br>ou<br> <a href="/RyuRising/Bassededonne/Panier.php">accéder au Panier</a></h3>');
 

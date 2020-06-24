@@ -6,11 +6,11 @@
 <div class="Mespots">
 
 <!-- Le foreach me permet de refaire le meme visuel des pots sans que je retape le code et je recupére chaque produit
-en les appellant product . -->
+en les appelant product . -->
   <?php foreach ($products as $product): ?>
      <div class="contienlo">
               <!-- avec mon Echo product id ma base de donné recupére les images en fonction des ID 
-     donc L'ID Aura l'image 1 ansi desuite . -->
+     donc L'ID Aura l'image 1 ansi desuite  . -->
     <img id="Tori"src="../images/Idpots/<?php echo $product->id; ?>.png">
         <p>
 
