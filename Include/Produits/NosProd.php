@@ -1,14 +1,16 @@
 
-<!-- ceci et ma requete preparer pour recupérer ma ligne de code sur MYSQL -->
+<!-- ceci et ma requete preparer pour recupérer ma ligne de code de la base de données -->
 <?php $products = $DB->query('SELECT * FROM products'); ?>
 
-<!-- Le foreach me permet de refaire le meme visuel des pots sans que je retape le code . -->
+
 <div class="Mespots">
 
+<!-- Le foreach me permet de refaire le meme visuel des pots sans que je retape le code et je recupére chaque produit
+en les appellant product . -->
   <?php foreach ($products as $product): ?>
-     <!-- avec mon Echo product id ma base de donné recupére les images en fonction des ID 
-     donc L'ID Aura l'image 1 ansi desuite . -->
      <div class="contienlo">
+              <!-- avec mon Echo product id ma base de donné recupére les images en fonction des ID 
+     donc L'ID Aura l'image 1 ansi desuite . -->
     <img id="Tori"src="../images/Idpots/<?php echo $product->id; ?>.png">
         <p>
 
@@ -22,5 +24,5 @@
 <?php endforeach ?>
 </div>
 
-<!-- Le forend et la pour dire que j'ai fini mon foreach -->
+<!-- Le endforeach et la pour dire que j'ai fini mon foreach -->
     
